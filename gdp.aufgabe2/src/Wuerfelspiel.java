@@ -16,7 +16,7 @@ public class Wuerfelspiel {
 	 */
 	public static void main(String[] args) {
 		
-		simulation(20,0.5);
+		simulation(20000,0.5);
 		
 	}
 
