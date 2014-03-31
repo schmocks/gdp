@@ -25,7 +25,7 @@ public class Blutgruppe {
 		if(in.hasNextLine()){mutter=in.nextLine().toUpperCase();}
 		System.out.print("Blutgruppe des Vaters: ");
 		if(in.hasNextLine()){vater=in.nextLine().toUpperCase();}
-		//System.out.println(vater + " " + mutter);
+		System.out.println(vater + " " + mutter);
 		in.close();
 		if(checkInput(vater, mutter)){
 			auswertung(vater, mutter);

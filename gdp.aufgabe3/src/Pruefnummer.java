@@ -44,7 +44,6 @@ public class Pruefnummer {
 		return true;
 		
 	}
-	
 	/**
 	 * Überprüfen der Nummer
 	 * @param x Seriennnummer
