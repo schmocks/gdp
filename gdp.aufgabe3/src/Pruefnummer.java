@@ -21,6 +21,7 @@ public class Pruefnummer {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Bitte die Seriennummer eingeben: ");
 		String input=in.nextLine();
+		input=input.toUpperCase();
 		in.close();
 		
 		if(checkInput(input)){check(input);}

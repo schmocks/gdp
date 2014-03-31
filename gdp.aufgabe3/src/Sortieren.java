@@ -8,6 +8,19 @@ public class Sortieren {
 	 * Main Methode
 	 */
 	public static void main(String[] args) {
+		
+		int[] xx = einlesen();
+		System.out.println("\nAufwärts sortiert: "+sort(xx, 1));
+		System.out.println("Abwärts sortiert: "+sort(xx, 2));
+		
+	}
+
+	/**
+	 * Liest Zahlenbereich und Anzahl ein und gibt an Generator weiter
+	 * 
+	 * @return xx Zufallszahlen
+	 */
+	static int[] einlesen(){
 		int a=0,b=0;
 		Scanner in = new Scanner(System.in);
 		System.out.print("Bitte den Zahlenbereich angeben: ");
@@ -20,11 +33,13 @@ public class Sortieren {
 		for(int i = 0;i<xx.length;i++){
 			System.out.print(xx[i] + ", ");
 		}
-		System.out.println("\nAufwärts sortiert: "+sort(xx, 1));
-		System.out.println("Abwärts sortiert: "+sort(xx, 2));
+		
+		
+		return xx;
 	}
-
+	
 	/**
+	 * Generiert Zufallszahlen
 	 * 
 	 * @param m Größte Zahl
 	 * @param n Anzahl der Zahlen
@@ -40,6 +55,7 @@ public class Sortieren {
 			}
 		return a;
 	}
+	
 	/**
 	 * liefert eine in dem Array noch nicht vorhandene Zufallszahl 
 	 * @param Array
@@ -64,37 +80,19 @@ public class Sortieren {
 	static String sort(int[] x, int t){
 		int temp;
 		String back = "";
-		
-		if(t==1){
-			for(int i=1; i<x.length; i++) {
+		for(int i=1; i<x.length; i++) {
 				for(int j=0; j<x.length-i; j++) {
-					if(x[j]>x[j+1]) {
+					if(x[j]>x[j+1]&&t==1) {
 						temp=x[j]; x[j]=x[j+1]; x[j+1]=temp;
 					}
-				
-				}
-			}
-			for(int i=0; i<x.length;i++){
-				back = back + x[i] + ", ";
-			}
-		
-		}
-		if(t==2){
-			for(int i=1; i<x.length; i++) {
-				for(int j=0; j<x.length-i; j++) {
-					if(x[j]<x[j+1]) {
+					if(x[j]<x[j+1]&&t==2) {
 						temp=x[j]; x[j]=x[j+1]; x[j+1]=temp;
 					}
-				
 				}
-			}
-			for(int i=0; i<x.length;i++){
-				back = back + x[i] + ", ";
-			}
-		
 		}
-	return back;
-	
-	
+		for(int i=0; i<x.length;i++){
+				back = back + x[i] + ", ";
+		}
+		return back;
 	}
 }
