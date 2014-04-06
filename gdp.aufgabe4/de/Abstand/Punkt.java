@@ -10,7 +10,7 @@ int index;
 
 
 public String toString(){
-	return "P"+index+ ": ("+xpos+"|"+ypos+")";
+	return "P"+index+ " = ("+xpos+"|"+ypos+")";
 
 }
 
