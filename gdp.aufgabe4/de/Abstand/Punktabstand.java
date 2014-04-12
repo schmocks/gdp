@@ -1,6 +1,7 @@
 package de.Abstand;
 
 import java.util.ArrayList;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Punktabstand {
@@ -9,8 +10,8 @@ public class Punktabstand {
 	
 	public static void main(String[] args) {
 	
-	
-	punkteEingabe();
+	punkteErzeugen();
+	//punkteEingabe();
 	punktePruefen();
 	punkteZeichnen(punkteSortieren());
 	punkteDistanz();
@@ -96,24 +97,27 @@ public class Punktabstand {
 	 * @return Zeile als String
 	 */
 	static String zeichneZeile(Punkt[] punkte,int i){
-		String space = "  ",sp1 = " ", sp2 = "  ",sp3 = "   ";
+		String space = "",sp1 = " ", sp2 = "  ",sp3 = "   ";
 		int s=0,anz=0;
 		for(int x=0;x<punkte.length;x++){
+			
 			if(punkte[x].getY()==i){
-				System.out.print("");
+				//System.out.print("");
 				for(int y=s;y<punkte[x].getX();y++){
-					
+					if(y==0){space=sp2;}
 					if(y>0&&y<10){space=space+sp1+sp2;}
 					if(y>=10&&y<100){space=space+sp2+sp2;}
-					if(y>=100){space=space+sp2+sp3;}
+					if(y>=100){space=space+sp3+sp2;}
 					
 				}
-				if(anz!=0){space=space.substring(anz-1);}
-				System.out.print(space+"x" + punkte[x].getIndex());
-				s=punkte[x].getX()+1;
+				if(anz!=0){space=space.substring(anz);}
+				System.out.print(space+"x"/* + punkte[x].getIndex()*/);
+				s=x;
+				//s=punkte[x].getX();
 				//space=space.substring(1);
 				anz+=2;
 			}
+			//s=0;
 		}
 		return null;
 	}
@@ -173,7 +177,24 @@ public class Punktabstand {
 			
 	}
 		
-		
+	static void punkteErzeugen(){
+		Random r = new Random();
+		boolean b1=true;
+		int n = 0;
+		Scanner input = new Scanner(System.in);
+		do{
+			System.out.print("Bitte Anzahl der Punkte eingeben: ");
+			if(input.hasNextInt()){
+				b1=false;
+				n=input.nextInt();
+			}
+			input.nextLine();			
+		}while(b1);
+		input.close();
+		for(int i=1; i<=n;i++){
+			Punkte.add(new Punkt(i, r.nextInt(9)+1, r.nextInt(9)+1));
+		}
+	}
 	
 	
 }
