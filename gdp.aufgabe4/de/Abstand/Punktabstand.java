@@ -10,8 +10,8 @@ public class Punktabstand {
 	
 	public static void main(String[] args) {
 	
-	punkteErzeugen();
-	//punkteEingabe();
+	//punkteErzeugen();
+	punkteEingabe();
 	punktePruefen();
 	punkteZeichnen(punkteSortieren());
 	punkteDistanz();
@@ -110,10 +110,10 @@ public class Punktabstand {
 					if(y>=100){space=space+sp3+sp2;}
 					
 				}
-				if(anz!=0){space=space.substring(anz);}
+				if(anz!=0){space=space.substring(anz-1);}
 				System.out.print(space+"x"/* + punkte[x].getIndex()*/);
-				s=x;
-				//s=punkte[x].getX();
+				//s=x;
+				s=punkte[x].getX();
 				//space=space.substring(1);
 				anz+=2;
 			}
