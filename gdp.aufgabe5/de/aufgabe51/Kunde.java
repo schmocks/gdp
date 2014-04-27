@@ -1,5 +1,12 @@
 package de.aufgabe51;
 
+
+/**
+ * Kunden Klasse
+ * 
+ * @author Stephan
+ *
+ */
 public class Kunde {
 	
 	private String vorname;
@@ -7,7 +14,9 @@ public class Kunde {
 	private String adresse;
 	private String telNr;
 	
-	
+	/**
+	 * toString Methode
+	 */
 	public String toString(){
 		return vorname + " " + nachname;
 	}

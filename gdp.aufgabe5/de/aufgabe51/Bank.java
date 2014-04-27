@@ -1,14 +1,25 @@
 package de.aufgabe51;
 
-import java.io.IOException;
+
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
+
+/**
+ * Bank Klasse
+ * 
+ * @author Stephan
+ *
+ */
 
 public class Bank {
 
 	private ArrayList<Konto> konten = new ArrayList<Konto>();
 	private short kontenzähler = 5000;
 	Scanner in = new Scanner(System.in);
+	DecimalFormat df = new DecimalFormat("0.00");
+
+	
 	
 	public String toString(){
 		String s = "";
@@ -19,6 +30,14 @@ public class Bank {
 		return s;
 	}
 	
+	/**
+	 * Konto eröffnen
+	 * 
+	 * @param kunde Kontoeigentümer
+	 * @param saldo Saldo des Kontos
+	 * @return neues Konto
+	 */
+	
 	public Konto kontoeroeffnen(Kunde kunde, double saldo){
 		
 		Konto a = new Konto(kunde, kontenzähler, saldo);
@@ -27,27 +46,96 @@ public class Bank {
 		return a;
 	}
 	
-	public Kunde getKunde(String vorname, String nachname){
+	/**
+	 * Kundensuche über Vor- und Nachname
+	 * 
+	 * @return Kunde oder falls nicht gefunden null
+	 * 
+	 */
+	
+	public Kunde getNameKunde(){
+		String vorname; String nachname;
+		System.out.println("\n>> Kundensuche über Namen <<\n");
+		System.out.print(">> Bitte Vornamen eingeben: ");
+		vorname = in.nextLine();
+		System.out.print(">> Bitte Nachnamen eingeben: ");
+		nachname = in.nextLine();
+		
+		
 		for(int i = 0; i<konten.size();i++){
 			if(konten.get(i).getKunde().getVorname().equals(vorname)
 			   &&konten.get(i).getKunde().getNachname().equals(nachname)){
 				return konten.get(i).getKunde();
 			}
 		}
-		System.out.println("Eintrag nicht gefunden!");
+		System.out.println("\n>> Eintrag nicht gefunden!");
+		end();
 		return null;
 	}
 	
-	public Kunde getKunde(Short kontonummer){
+	/**
+	 * 
+	 * Kundensuche über Kontonummer
+	 * 
+	 * @return Kunde oder falls nicht gefunden null
+	 * 
+	 */
+	
+	public Kunde getNummerKunde(){
+		Short kontonummer = 0;
+		boolean ba = true;
+		System.out.println("\n>> Kontensuche <<\n");
+		do{
+			System.out.print(">> Kontonummer: ");
+			if(in.hasNextShort()){
+				kontonummer=in.nextShort();
+				ba=false;
+			}
+			in.nextLine();
+		}while(ba);
 		for(int i = 0; i<konten.size();i++){
 			if(konten.get(i).getKontonummer()==kontonummer){
 				return konten.get(i).getKunde();
 			}
 		}
-		System.out.println("Eintrag nicht gefunden!");
+		System.out.println("\n>> Eintrag nicht gefunden!");
+		end();
 		return null;
 	
 	}
+	
+	/**
+	 * Kontensuche über Kontonummer
+	 * 
+	 * @return Konto oder falls nicht gefunden null
+	 */
+	
+	
+	private Konto getNummerKonto(){
+		Short kontonummer = 0;
+		boolean ba = true;
+		System.out.println("\n>> Kontensuche <<\n");
+		do{
+			System.out.print(">> Kontonummer: ");
+			if(in.hasNextShort()){
+				kontonummer=in.nextShort();
+				ba=false;
+			}
+			in.nextLine();
+		}while(ba);
+		for(int i = 0; i<konten.size();i++){
+			if(konten.get(i).getKontonummer()==kontonummer){
+				return konten.get(i);
+			}
+		}
+		System.out.println("\n>> Eintrag nicht gefunden!");
+		return null;
+	}
+	
+	/**
+	 * Neuen Kunden anlegen und gleichzeitig ein Konto auf seinen Namen eröffnen
+	 * 
+	 */
 	
 	public void neuerKunde(){
 		String vorname; String nachname; double saldo = 0;
@@ -69,9 +157,15 @@ public class Bank {
 		}while(ba);
 		
 		kontoeroeffnen(kunde, saldo);
-		menuBank();
+		System.out.println("\n>> Konto erfolgreich eröffnet!\n");
+		end();
 		
 	}
+	
+	/**
+	 * Hauptmenu der Bank
+	 * 
+	 */
 	
 	public void menuBank(){
 		boolean input = true;
@@ -90,9 +184,10 @@ public class Bank {
 			System.out.print(">> gewünschte Aktion: ");
 			if(in.hasNextInt()){
 				menu=in.nextInt();
-				if(menu>0&&menu<7){
+				if(menu>0&&menu<8){
 					input=false;
 				}
+				
 			}
 			in.nextLine();
 			
@@ -102,13 +197,148 @@ public class Bank {
 		
 	}
 	
+	/**
+	 * Kunden löschen
+	 * 
+	 */
+	private void loescheKunde(){
+		Kunde kunde = null;
+		ArrayList<Konto> temp = new ArrayList<Konto>();
+		System.out.println("\n>> Kunden löschen <<\n");
+		kunde=getNameKunde();
+		if(kunde==null){menuBank();}
+		else{
+			for(int x=0; x<konten.size();x++){
+				if(!(konten.get(x).getKunde().equals(kunde))){
+					temp.add(konten.get(x));
+				}
+			}
+		}
+		konten=temp;
+		System.out.println("\n>> Kunde gelöscht");
+		end();
+	}
+	
+	/**
+	 * Geld auf ein Konto einzahlen
+	 */
+	
+	private void geldEinzahlen(){
+		double saldo = 0;
+		boolean ba = true;
+		int merk= 0;
+		System.out.println("\n>> Geld einzahlen <<\n");
+		Konto konto = getNummerKonto();
+		if(konto==null){menuBank();}
+		System.out.println(">> Aktueller Kontostand: "+ konto.getSaldo());
+		do{
+			System.out.print(">> Einzahlbetrag: ");
+			if(in.hasNextDouble()){
+				saldo=in.nextDouble();
+				ba=false;
+			}
+			in.nextLine();
+		}while(ba);
+		
+		for(int i=0;i<konten.size();i++){
+			if(konten.get(i).equals(konto)){
+				konten.get(i).einzahlen(saldo);
+				merk=i;
+			}
+		}
+		System.out.println(">> Neuer Kontostand: "+df.format(konten.get(merk).getSaldo()));
+		end();
+			
+	}
+	
+	/**
+	 * Geld von einem Konto auszahlen
+	 * 
+	 */
+	private void geldAuszahlen(){
+		double saldo = 0;
+		boolean ba = true;
+		int merk= 0;
+		System.out.println("\n>> Geld auszahlen <<\n");
+		Konto konto = getNummerKonto();
+		if(konto==null){menuBank();}
+		System.out.println(">> Aktueller Kontostand: "+ konto.getSaldo());
+		do{
+			System.out.print(">> Auszahlbetragbetrag: ");
+			if(in.hasNextDouble()){
+				saldo=in.nextDouble();
+				ba=false;
+			}
+			in.nextLine();
+		}while(ba);
+		
+		for(int i=0;i<konten.size();i++){
+			if(konten.get(i).equals(konto)){
+				konten.get(i).auszahlen(saldo);
+				merk=i;
+			}
+		}
+		System.out.println(">> Neuer Kontostand: "+df.format(konten.get(merk).getSaldo()));
+		end();
+	}
+	
+	/**
+	 * Kontoauszüge aller Konten eines Kunden
+	 * 
+	 */
+	
+	private void kontoauszuege(){
+		Kunde kunde = getNameKunde();
+		if(kunde==null){menuBank();}
+		System.out.println("\n>> Kontosauszüge von "+kunde+"\n");
+		for(int i=0;i<konten.size();i++){
+			if(konten.get(i).getKunde().equals(kunde)){
+				Konto konto = konten.get(i);
+				System.out.println(">> Kontonummer: "+ konto.getKontonummer()+ " Saldo: "+konto.getSaldo());
+			}
+		}
+		
+		end();
+	}
+	
+	/**
+	 * Menuaufruf 
+	 * @param i gewünschtes Menu
+	 * 
+	 */
+	
 	private void menuaufruf(int i){
-		if(i==1){neuerKunde();}
-		if(i==2){};
-		if(i==3){};
-		if(i==4){};
-		if(i==5){};
-		if(i==6){System.out.println(toString());if(in.hasNextLine()){menuBank();}};
-		if(i==7){in.close();}
+		switch(i){
+		case 1: neuerKunde();
+		case 2: loescheKunde();
+		case 3: geldEinzahlen();
+		case 4: geldAuszahlen();
+		case 5: kontoauszuege();
+		case 6: kontenanzeigen();
+		case 7: System.out.println("\n\n\n   ...und Tschüss");System.exit(0);	
+			
+		
+		default: System.out.println("default");
+		}
+
+	}
+		
+	/**
+	 * Zurück zum Hauptmenü
+	 */
+	
+	private void end(){
+		String end = "\nBitte Enter drücken um zum Hauptmenü zu gelangen.";
+		System.out.println(end);if(in.hasNextLine()){menuBank();}
+	}
+	
+	/**
+	 * Gibt die ArrayList Konten aus
+	 */
+	
+	private void kontenanzeigen(){
+		System.out.println("\n>> Alle Konten <<\n");
+		for(int x=0;x<konten.size();x++){System.out.println(konten.get(x));}
+		end();
 	}
 }

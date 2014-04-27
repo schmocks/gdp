@@ -2,12 +2,23 @@ package de.aufgabe51;
 
 import java.text.DecimalFormat;
 
+/**
+ * Konto Klasse
+ * 
+ * @author Stephan
+ *
+ */
+
 public class Konto {
 
 	private Kunde kunde;
 	private short kontonummer;
 	private double saldo;
 	DecimalFormat df = new DecimalFormat("0.00");
+	
+	/**
+	 * 
+	 */
 	
 	public String toString(){
 		
@@ -42,13 +53,29 @@ public class Konto {
 		this.saldo = saldo;
 	}
 	
+	
+	/**
+	 * Einzahl Methode
+	 * 
+	 * @param summe
+	 */
+	
 	public void einzahlen(double summe){
 		saldo+=summe;
 	}
 	
+	
+	/**
+	 * Auszahl Methode
+	 * 
+	 * negatives Saldo nicht möglich
+	 * 
+	 * @param summe gewünschte Auszahlsumme
+	 */
+	
 	public void auszahlen(double summe){
 		if(summe>saldo){
-			System.out.println("Auszahlung nicht möglich");
+			System.out.println(">> Auszahlung nicht möglich");
 			return;
 		}else{
 			saldo-=summe;
