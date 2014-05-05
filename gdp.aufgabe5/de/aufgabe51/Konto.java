@@ -45,13 +45,15 @@ public class Konto {
 		this.kontonummer = kontonummer;
 	}
 
+	public void setSaldo(double saldo){
+		this.saldo=saldo;
+	}
 	public double getSaldo() {
-		return saldo;
+		double temp = 0;
+		temp = saldo;
+		return temp;
 	}
 
-	public void setSaldo(double saldo) {
-		this.saldo = saldo;
-	}
 	
 	
 	/**

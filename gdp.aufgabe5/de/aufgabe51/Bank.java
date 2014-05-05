@@ -47,6 +47,29 @@ public class Bank {
 	}
 	
 	/**
+	 * Konto eröffnen
+	 * 
+	 * @param kunde Kontoeigentümer
+	 * @param saldo Saldo des Kontos
+	 * @return neues Konto
+	 */
+	
+	public Konto gkontoeroeffnen(Kunde kunde, double saldo){
+		Short x = (short) (kontenzähler+1000);
+		Girokonto a = new Girokonto(kunde, x, saldo);
+		konten.add(a);
+		kontenzähler++;
+		return a;
+	}
+	
+	public Konto skontoeroeffnen(Kunde kunde, double saldo){
+		Short x = (short) (kontenzähler-1000);
+		Sparkonto a = new Sparkonto(kunde, x, saldo);
+		konten.add(a);
+		kontenzähler++;
+		return a;
+	}
+	/**
 	 * Kundensuche über Vor- und Nachname
 	 * 
 	 * @return Kunde oder falls nicht gefunden null
@@ -146,7 +169,8 @@ public class Bank {
 		System.out.print(">> Nachname: ");nachname=in.nextLine();
 		System.out.print(">> Adresse: ");adresse=in.nextLine();
 		System.out.print(">> Telefonnummer: ");telNr=in.nextLine();
-		Kunde kunde = new Kunde(vorname, nachname, adresse, telNr);		
+		Kunde kunde = new Kunde(vorname, nachname, adresse, telNr);	
+		int typ = Kontotyp();
 		do{
 			System.out.print(">> Saldo: ");
 			if(in.hasNextDouble()){
@@ -155,11 +179,29 @@ public class Bank {
 			}
 			in.nextLine();
 		}while(ba);
+		switch(typ){
+		case 1: skontoeroeffnen(kunde, saldo);break;
+		case 2: gkontoeroeffnen(kunde, saldo);break;
+		case 3: kontoeroeffnen(kunde, saldo);}
 		
-		kontoeroeffnen(kunde, saldo);
 		System.out.println("\n>> Konto erfolgreich eröffnet!\n");
 		end();
 		
+	}
+	
+	private int Kontotyp(){
+		boolean ba = true;
+		int i = 0;
+		System.out.println(">> Sparkonto (1) | Girokonto (2) | Standardkonto (3)");
+		do{
+			System.out.print(">> Kontotyp: ");
+			if(in.hasNextInt()){
+				i=in.nextInt();
+				if(i>0&&i<4){ba=false;}
+			}
+			in.nextLine();
+		}while(ba);
+		return i;
 	}
 	
 	/**

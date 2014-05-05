@@ -6,7 +6,9 @@ public class test {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Bank vb = new Bank();
+		System.out.println(Zinsen.Girokonto.Zins(-100));
+		
+		/*Bank vb = new Bank();
 		Kunde kunde0 = new Kunde("Karl", "Muster", "Hier", "1000");
 		Kunde kunde1 = new Kunde("Max", "Mustertee", "Unten", "2000");
 		Kunde kunde2 = new Kunde("Hugo", "Musterzwerg", "Dort", "5000");
@@ -21,13 +23,14 @@ public class test {
 		vb.kontoeroeffnen(kunde3, 555);
 		vb.kontoeroeffnen(kunde3, 232);
 		vb.kontoeroeffnen(kunde4, 0.99);
-		vb.kontoeroeffnen(kunde4, 20);
+		vb.skontoeroeffnen(kunde4, 20);
+		vb.gkontoeroeffnen(kunde4, -400);
 		
 		
 		
 		
 		vb.menuBank();
-		
+		**/
 		
 	
 	}
