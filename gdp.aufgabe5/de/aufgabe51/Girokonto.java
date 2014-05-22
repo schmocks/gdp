@@ -1,27 +1,38 @@
 package de.aufgabe51;
 
+import java.math.BigDecimal;
+
 public class Girokonto extends Konto{
 
-	
-	private double saldo;
-	Girokonto(Kunde kunde, short kontonummer, double saldo) {
+	/**
+	 * Klasse der Girokonten
+	 * 
+	 */
+	private BigDecimal saldo;
+	Girokonto(Kunde kunde, short kontonummer, BigDecimal saldo) {
 		super(kunde, kontonummer, saldo);
 		
 		
 	}
 	
-	public void auszahlen(double summe){
+	
+	/**
+	 * Auszahlen mit einem Maximum von 300
+	 * 
+	 */
+	public void auszahlen(BigDecimal summe){
 		saldo=getSaldo();
-		if(summe>300){
+		if(summe.compareTo(new BigDecimal(300))>=0){
 			System.out.println(">> Auszahlungsbetrag zu hoch");
 			return;
 		}
-		if((saldo-summe)<(-500)){
+		if(saldo.subtract(summe).compareTo(new BigDecimal(-500))<=0)
+		/*if((saldo-summe)<(-500))*/{
 			System.out.println(">> Dispolimit erreicht");
 			return;
 		}
-			
-			setSaldo(saldo-summe);
+			addBewegung(getKontonummer(), summe, 1);
+			setSaldo(saldo.subtract(summe));
 			
 		
 	}

@@ -2,5 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path=""/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_51"/>
+	<classpathentry kind="lib" path="C:/Users/Stephan/Dropbox/uni/Softwaretechnik/aufgabe6/jdom/jdom-2.0.5.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>

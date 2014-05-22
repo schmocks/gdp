@@ -1,6 +1,7 @@
 package de.aufgabe51;
 
 
+import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -15,7 +16,10 @@ import java.util.Scanner;
 public class Bank {
 
 	private ArrayList<Konto> konten = new ArrayList<Konto>();
+	private short skontenzähler = 4000;
 	private short kontenzähler = 5000;
+	private short gkontenzähler = 6000;
+	
 	Scanner in = new Scanner(System.in);
 	DecimalFormat df = new DecimalFormat("0.00");
 
@@ -38,10 +42,12 @@ public class Bank {
 	 * @return neues Konto
 	 */
 	
-	public Konto kontoeroeffnen(Kunde kunde, double saldo){
+	public Konto kontoeroeffnen(Kunde kunde, BigDecimal saldo){
 		
 		Konto a = new Konto(kunde, kontenzähler, saldo);
+		
 		konten.add(a);
+		checkNr(2);
 		kontenzähler++;
 		return a;
 	}
@@ -53,20 +59,44 @@ public class Bank {
 	 * @param saldo Saldo des Kontos
 	 * @return neues Konto
 	 */
-	
-	public Konto gkontoeroeffnen(Kunde kunde, double saldo){
-		Short x = (short) (kontenzähler+1000);
-		Girokonto a = new Girokonto(kunde, x, saldo);
-		konten.add(a);
-		kontenzähler++;
-		return a;
+	private void checkNr(int i){
+		switch(i){
+		case 1: if(((skontenzähler+1)%1000)==0){skontenzähler+=2000;};break;
+		case 2:	if(((kontenzähler+1)%1000)==0){kontenzähler+=2000;};break;
+		case 3: if(((gkontenzähler+1)%1000)==0){gkontenzähler+=2000;};break;
+		default: break;
+		}
+		
+		
+		
 	}
 	
-	public Konto skontoeroeffnen(Kunde kunde, double saldo){
-		Short x = (short) (kontenzähler-1000);
-		Sparkonto a = new Sparkonto(kunde, x, saldo);
+	/**
+	 * Girokonto eröffnen
+	 * @param kunde
+	 * @param saldo
+	 * @return eröffnetes Konto
+	 */
+	
+	public Konto gkontoeroeffnen(Kunde kunde, BigDecimal saldo){
+		Girokonto a = new Girokonto(kunde, gkontenzähler, saldo);
 		konten.add(a);
-		kontenzähler++;
+		checkNr(3);
+		gkontenzähler++;
+		return a;
+	}
+	/**
+	 * Sparkonto eröffnen
+	 * @param kunde
+	 * @param saldo
+	 * @return eröffnetes Konto
+	 */
+	
+	public Konto skontoeroeffnen(Kunde kunde,  BigDecimal saldo){
+		Sparkonto a = new Sparkonto(kunde, skontenzähler, saldo);
+		konten.add(a);
+		checkNr(1);
+		skontenzähler++;
 		return a;
 	}
 	/**
@@ -134,7 +164,7 @@ public class Bank {
 	 */
 	
 	
-	private Konto getNummerKonto(){
+	public Konto getNummerKonto(){
 		Short kontonummer = 0;
 		boolean ba = true;
 		System.out.println("\n>> Kontensuche <<\n");
@@ -161,7 +191,7 @@ public class Bank {
 	 */
 	
 	public void neuerKunde(){
-		String vorname; String nachname; double saldo = 0;
+		String vorname; String nachname; BigDecimal saldo = new BigDecimal(0);
 		String adresse; String telNr;
 		boolean ba = true;
 		System.out.println("\n>> Neuen Kunden anlegen <<\n");
@@ -173,8 +203,8 @@ public class Bank {
 		int typ = Kontotyp();
 		do{
 			System.out.print(">> Saldo: ");
-			if(in.hasNextDouble()){
-				saldo=in.nextDouble();
+			if(in.hasNextBigDecimal()){
+				saldo=in.nextBigDecimal();
 				ba=false;
 			}
 			in.nextLine();
@@ -188,6 +218,13 @@ public class Bank {
 		end();
 		
 	}
+	
+	
+	/**
+	 * Abfrage welcher Kontotyp
+	 *
+	 * @return int für Kontotyp
+	 */
 	
 	private int Kontotyp(){
 		boolean ba = true;
@@ -266,7 +303,7 @@ public class Bank {
 	 */
 	
 	private void geldEinzahlen(){
-		double saldo = 0;
+		BigDecimal saldo = new BigDecimal(0);
 		boolean ba = true;
 		int merk= 0;
 		System.out.println("\n>> Geld einzahlen <<\n");
@@ -275,8 +312,8 @@ public class Bank {
 		System.out.println(">> Aktueller Kontostand: "+ konto.getSaldo());
 		do{
 			System.out.print(">> Einzahlbetrag: ");
-			if(in.hasNextDouble()){
-				saldo=in.nextDouble();
+			if(in.hasNextBigDecimal()){
+				saldo=in.nextBigDecimal();
 				ba=false;
 			}
 			in.nextLine();
@@ -298,7 +335,7 @@ public class Bank {
 	 * 
 	 */
 	private void geldAuszahlen(){
-		double saldo = 0;
+		BigDecimal saldo = new BigDecimal(0);
 		boolean ba = true;
 		int merk= 0;
 		System.out.println("\n>> Geld auszahlen <<\n");
@@ -307,8 +344,8 @@ public class Bank {
 		System.out.println(">> Aktueller Kontostand: "+ konto.getSaldo());
 		do{
 			System.out.print(">> Auszahlbetragbetrag: ");
-			if(in.hasNextDouble()){
-				saldo=in.nextDouble();
+			if(in.hasNextBigDecimal()){
+				saldo=in.nextBigDecimal();
 				ba=false;
 			}
 			in.nextLine();
@@ -329,19 +366,19 @@ public class Bank {
 	 * 
 	 */
 	
-	private void kontoauszuege(){
+	/**private void kontoauszuege(){
 		Kunde kunde = getNameKunde();
 		if(kunde==null){menuBank();}
 		System.out.println("\n>> Kontosauszüge von "+kunde+"\n");
 		for(int i=0;i<konten.size();i++){
 			if(konten.get(i).getKunde().equals(kunde)){
-				Konto konto = konten.get(i);
+				Konto  konto = konten.get(i);
 				System.out.println(">> Kontonummer: "+ konto.getKontonummer()+ " Saldo: "+konto.getSaldo());
 			}
 		}
 		
 		end();
-	}
+	}*/
 	
 	/**
 	 * Menuaufruf 
@@ -351,12 +388,12 @@ public class Bank {
 	
 	private void menuaufruf(int i){
 		switch(i){
-		case 1: neuerKunde();
-		case 2: loescheKunde();
-		case 3: geldEinzahlen();
-		case 4: geldAuszahlen();
-		case 5: kontoauszuege();
-		case 6: kontenanzeigen();
+		case 1: neuerKunde();break;
+		case 2: loescheKunde();break;
+		case 3: geldEinzahlen();break;
+		case 4: geldAuszahlen();break;
+		case 5: kontoauszug();break;
+		case 6: kontenanzeigen();break;
 		case 7: System.out.println("\n\n\n   ...und Tschüss");System.exit(0);	
 			
 		
@@ -379,8 +416,35 @@ public class Bank {
 	 */
 	
 	private void kontenanzeigen(){
+		Konto[] konto = konten.toArray(new Konto[konten.size()]);
+		
 		System.out.println("\n>> Alle Konten <<\n");
-		for(int x=0;x<konten.size();x++){System.out.println(konten.get(x));}
+		Konto temp=null;
+		for(int i=1; i<konto.length; i++) {
+			for(int j=0; j<konto.length-i; j++) {
+				if(konto[j].getKontonummer()>konto[j+1].getKontonummer()) {
+					temp=konto[j]; konto[j]=konto[j+1]; konto[j+1]=temp;
+					}
+				}
+			}
+		for(int x=0;x<konto.length;x++){System.out.println(konto[x]);}
 		end();
+	}
+	
+	/**
+	 * Ruft die für Kontonummer abfrage auf und schreibt Kontoauszüge
+	 */
+	
+	private void kontoauszug(){
+		getNummerKonto().write();
+		/**String[] x = (getNummerKonto().getAuszug());
+		for(int i = 0; i<x.length;i++){
+			System.out.println(x[i]);
+		}*/
+		end();
+	}
+	
+	public ArrayList<Konto> getKonten(){
+		return konten;
 	}
 }

@@ -1,7 +1,7 @@
 package de.aufgabe51;
 
 public enum Zinsen {
-	Sparkonto(3.0), Girokonto(1.25),Konto(0.25);
+	Sparkonto(3.0), Girokonto(1.25), Konto(0.25);
 	
 	private final double zinsen;
 	
