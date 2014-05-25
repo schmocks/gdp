@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kontoauszug>
+  <Vorgang>
+    <Datum>Mon May 19 13:32:08 CEST 2014</Datum>
+    <SaldoAlt>0.00</SaldoAlt>
+    <Buchung>1823.07</Buchung>
+    <SaldoNeu>1823.07</SaldoNeu>
+  </Vorgang>
+</Kontoauszug>

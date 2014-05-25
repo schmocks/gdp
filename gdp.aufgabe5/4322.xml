@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kontoauszug>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:01 CEST 2014</Datum>
+    <SaldoAlt>0.00</SaldoAlt>
+    <Buchung>1703.20</Buchung>
+    <SaldoNeu>1703.20</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>1703.20</SaldoAlt>
+    <Buchung>205.15</Buchung>
+    <SaldoNeu>1908.36</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>1908.36</SaldoAlt>
+    <Buchung>912.70</Buchung>
+    <SaldoNeu>2821.06</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>2821.06</SaldoAlt>
+    <Buchung>208.54</Buchung>
+    <SaldoNeu>3029.60</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>3029.60</SaldoAlt>
+    <Buchung>233.33</Buchung>
+    <SaldoNeu>3262.92</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>3262.92</SaldoAlt>
+    <Buchung>875.77</Buchung>
+    <SaldoNeu>4138.70</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>4138.70</SaldoAlt>
+    <Buchung>857.36</Buchung>
+    <SaldoNeu>4996.05</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>4996.05</SaldoAlt>
+    <Buchung>681.11</Buchung>
+    <SaldoNeu>5677.16</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>5677.16</SaldoAlt>
+    <Buchung>362.77</Buchung>
+    <SaldoNeu>6039.94</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>6039.94</SaldoAlt>
+    <Buchung>293.50</Buchung>
+    <SaldoNeu>6333.44</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>6333.44</SaldoAlt>
+    <Buchung>298.58</Buchung>
+    <SaldoNeu>6632.02</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>6632.02</SaldoAlt>
+    <Buchung>736.08</Buchung>
+    <SaldoNeu>7368.10</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>7368.10</SaldoAlt>
+    <Buchung>552.51</Buchung>
+    <SaldoNeu>7920.60</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>7920.60</SaldoAlt>
+    <Buchung>548.92</Buchung>
+    <SaldoNeu>8469.53</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>8469.53</SaldoAlt>
+    <Buchung>368.43</Buchung>
+    <SaldoNeu>8837.96</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>8837.96</SaldoAlt>
+    <Buchung>905.15</Buchung>
+    <SaldoNeu>9743.10</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>9743.10</SaldoAlt>
+    <Buchung>677.81</Buchung>
+    <SaldoNeu>10420.92</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>10420.92</SaldoAlt>
+    <Buchung>609.32</Buchung>
+    <SaldoNeu>11030.23</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>11030.23</SaldoAlt>
+    <Buchung>530.00</Buchung>
+    <SaldoNeu>11560.23</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>11560.23</SaldoAlt>
+    <Buchung>10.52</Buchung>
+    <SaldoNeu>11570.75</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>11570.75</SaldoAlt>
+    <Buchung>459.51</Buchung>
+    <SaldoNeu>12030.26</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>12030.26</SaldoAlt>
+    <Buchung>712.15</Buchung>
+    <SaldoNeu>12742.41</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>12742.41</SaldoAlt>
+    <Buchung>293.84</Buchung>
+    <SaldoNeu>13036.25</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>13036.25</SaldoAlt>
+    <Buchung>99.17</Buchung>
+    <SaldoNeu>13135.41</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>13135.41</SaldoAlt>
+    <Buchung>784.95</Buchung>
+    <SaldoNeu>13920.36</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:48:02 CEST 2014</Datum>
+    <SaldoAlt>13920.36</SaldoAlt>
+    <Buchung>653.75</Buchung>
+    <SaldoNeu>14574.11</SaldoNeu>
+  </Vorgang>
+</Kontoauszug>

@@ -1,0 +1,3009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kontoauszug>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:01 CEST 2014</Datum>
+    <SaldoAlt>0.00</SaldoAlt>
+    <Buchung>1531.75</Buchung>
+    <SaldoNeu>1531.75</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>1531.75</SaldoAlt>
+    <Buchung>579.56</Buchung>
+    <SaldoNeu>2111.31</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>2111.31</SaldoAlt>
+    <Buchung>955.64</Buchung>
+    <SaldoNeu>3066.94</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>3066.94</SaldoAlt>
+    <Buchung>167.11</Buchung>
+    <SaldoNeu>3234.06</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>3234.06</SaldoAlt>
+    <Buchung>338.55</Buchung>
+    <SaldoNeu>3572.61</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>3572.61</SaldoAlt>
+    <Buchung>675.58</Buchung>
+    <SaldoNeu>4248.19</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>4248.19</SaldoAlt>
+    <Buchung>136.81</Buchung>
+    <SaldoNeu>4385.00</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>4385.00</SaldoAlt>
+    <Buchung>973.34</Buchung>
+    <SaldoNeu>5358.34</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>5358.34</SaldoAlt>
+    <Buchung>96.29</Buchung>
+    <SaldoNeu>5454.62</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>5454.62</SaldoAlt>
+    <Buchung>196.89</Buchung>
+    <SaldoNeu>5651.51</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>5651.51</SaldoAlt>
+    <Buchung>498.21</Buchung>
+    <SaldoNeu>6149.72</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>6149.72</SaldoAlt>
+    <Buchung>473.40</Buchung>
+    <SaldoNeu>6623.12</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>6623.12</SaldoAlt>
+    <Buchung>134.26</Buchung>
+    <SaldoNeu>6757.37</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>6757.37</SaldoAlt>
+    <Buchung>582.60</Buchung>
+    <SaldoNeu>7339.97</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>7339.97</SaldoAlt>
+    <Buchung>727.18</Buchung>
+    <SaldoNeu>8067.15</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>8067.15</SaldoAlt>
+    <Buchung>211.22</Buchung>
+    <SaldoNeu>8278.37</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>8278.37</SaldoAlt>
+    <Buchung>567.07</Buchung>
+    <SaldoNeu>8845.44</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>8845.44</SaldoAlt>
+    <Buchung>715.15</Buchung>
+    <SaldoNeu>9560.59</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>9560.59</SaldoAlt>
+    <Buchung>848.51</Buchung>
+    <SaldoNeu>10409.10</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>10409.10</SaldoAlt>
+    <Buchung>766.09</Buchung>
+    <SaldoNeu>11175.19</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>11175.19</SaldoAlt>
+    <Buchung>578.83</Buchung>
+    <SaldoNeu>11754.03</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>11754.03</SaldoAlt>
+    <Buchung>408.43</Buchung>
+    <SaldoNeu>12162.46</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>12162.46</SaldoAlt>
+    <Buchung>591.09</Buchung>
+    <SaldoNeu>12753.54</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>12753.54</SaldoAlt>
+    <Buchung>440.65</Buchung>
+    <SaldoNeu>13194.19</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>13194.19</SaldoAlt>
+    <Buchung>243.79</Buchung>
+    <SaldoNeu>13437.98</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>13437.98</SaldoAlt>
+    <Buchung>459.56</Buchung>
+    <SaldoNeu>13897.54</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>13897.54</SaldoAlt>
+    <Buchung>201.22</Buchung>
+    <SaldoNeu>14098.76</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>14098.76</SaldoAlt>
+    <Buchung>463.21</Buchung>
+    <SaldoNeu>14561.98</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>14561.98</SaldoAlt>
+    <Buchung>313.36</Buchung>
+    <SaldoNeu>14875.34</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>14875.34</SaldoAlt>
+    <Buchung>556.94</Buchung>
+    <SaldoNeu>15432.27</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>15432.27</SaldoAlt>
+    <Buchung>941.29</Buchung>
+    <SaldoNeu>16373.56</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>16373.56</SaldoAlt>
+    <Buchung>661.10</Buchung>
+    <SaldoNeu>17034.66</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>17034.66</SaldoAlt>
+    <Buchung>915.22</Buchung>
+    <SaldoNeu>17949.88</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>17949.88</SaldoAlt>
+    <Buchung>93.48</Buchung>
+    <SaldoNeu>18043.36</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>18043.36</SaldoAlt>
+    <Buchung>236.09</Buchung>
+    <SaldoNeu>18279.46</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>18279.46</SaldoAlt>
+    <Buchung>989.26</Buchung>
+    <SaldoNeu>19268.72</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>19268.72</SaldoAlt>
+    <Buchung>442.72</Buchung>
+    <SaldoNeu>19711.44</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>19711.44</SaldoAlt>
+    <Buchung>867.88</Buchung>
+    <SaldoNeu>20579.32</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>20579.32</SaldoAlt>
+    <Buchung>568.07</Buchung>
+    <SaldoNeu>21147.38</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>21147.38</SaldoAlt>
+    <Buchung>973.05</Buchung>
+    <SaldoNeu>22120.43</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>22120.43</SaldoAlt>
+    <Buchung>211.15</Buchung>
+    <SaldoNeu>22331.58</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>22331.58</SaldoAlt>
+    <Buchung>619.73</Buchung>
+    <SaldoNeu>22951.31</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>22951.31</SaldoAlt>
+    <Buchung>286.40</Buchung>
+    <SaldoNeu>23237.71</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>23237.71</SaldoAlt>
+    <Buchung>499.77</Buchung>
+    <SaldoNeu>23737.48</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>23737.48</SaldoAlt>
+    <Buchung>891.45</Buchung>
+    <SaldoNeu>24628.93</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>24628.93</SaldoAlt>
+    <Buchung>734.44</Buchung>
+    <SaldoNeu>25363.36</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>25363.36</SaldoAlt>
+    <Buchung>269.52</Buchung>
+    <SaldoNeu>25632.88</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>25632.88</SaldoAlt>
+    <Buchung>976.10</Buchung>
+    <SaldoNeu>26608.99</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>26608.99</SaldoAlt>
+    <Buchung>705.59</Buchung>
+    <SaldoNeu>27314.57</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>27314.57</SaldoAlt>
+    <Buchung>638.53</Buchung>
+    <SaldoNeu>27953.10</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>27953.10</SaldoAlt>
+    <Buchung>861.83</Buchung>
+    <SaldoNeu>28814.93</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>28814.93</SaldoAlt>
+    <Buchung>64.99</Buchung>
+    <SaldoNeu>28879.91</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>28879.91</SaldoAlt>
+    <Buchung>224.39</Buchung>
+    <SaldoNeu>29104.31</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>29104.31</SaldoAlt>
+    <Buchung>7.18</Buchung>
+    <SaldoNeu>29111.49</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>29111.49</SaldoAlt>
+    <Buchung>481.06</Buchung>
+    <SaldoNeu>29592.55</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>29592.55</SaldoAlt>
+    <Buchung>409.21</Buchung>
+    <SaldoNeu>30001.75</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>30001.75</SaldoAlt>
+    <Buchung>404.62</Buchung>
+    <SaldoNeu>30406.38</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>30406.38</SaldoAlt>
+    <Buchung>599.40</Buchung>
+    <SaldoNeu>31005.78</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>31005.78</SaldoAlt>
+    <Buchung>405.86</Buchung>
+    <SaldoNeu>31411.64</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>31411.64</SaldoAlt>
+    <Buchung>464.35</Buchung>
+    <SaldoNeu>31875.99</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>31875.99</SaldoAlt>
+    <Buchung>192.12</Buchung>
+    <SaldoNeu>32068.11</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>32068.11</SaldoAlt>
+    <Buchung>207.30</Buchung>
+    <SaldoNeu>32275.41</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>32275.41</SaldoAlt>
+    <Buchung>137.95</Buchung>
+    <SaldoNeu>32413.36</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>32413.36</SaldoAlt>
+    <Buchung>848.10</Buchung>
+    <SaldoNeu>33261.46</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>33261.46</SaldoAlt>
+    <Buchung>887.36</Buchung>
+    <SaldoNeu>34148.82</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>34148.82</SaldoAlt>
+    <Buchung>176.58</Buchung>
+    <SaldoNeu>34325.40</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>34325.40</SaldoAlt>
+    <Buchung>486.89</Buchung>
+    <SaldoNeu>34812.29</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>34812.29</SaldoAlt>
+    <Buchung>227.61</Buchung>
+    <SaldoNeu>35039.90</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>35039.90</SaldoAlt>
+    <Buchung>312.07</Buchung>
+    <SaldoNeu>35351.98</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>35351.98</SaldoAlt>
+    <Buchung>64.31</Buchung>
+    <SaldoNeu>35416.29</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>35416.29</SaldoAlt>
+    <Buchung>12.72</Buchung>
+    <SaldoNeu>35429.01</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>35429.01</SaldoAlt>
+    <Buchung>439.58</Buchung>
+    <SaldoNeu>35868.59</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>35868.59</SaldoAlt>
+    <Buchung>105.67</Buchung>
+    <SaldoNeu>35974.26</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>35974.26</SaldoAlt>
+    <Buchung>363.61</Buchung>
+    <SaldoNeu>36337.87</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>36337.87</SaldoAlt>
+    <Buchung>467.76</Buchung>
+    <SaldoNeu>36805.63</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>36805.63</SaldoAlt>
+    <Buchung>875.63</Buchung>
+    <SaldoNeu>37681.26</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>37681.26</SaldoAlt>
+    <Buchung>669.91</Buchung>
+    <SaldoNeu>38351.16</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>38351.16</SaldoAlt>
+    <Buchung>11.65</Buchung>
+    <SaldoNeu>38362.82</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>38362.82</SaldoAlt>
+    <Buchung>103.71</Buchung>
+    <SaldoNeu>38466.53</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>38466.53</SaldoAlt>
+    <Buchung>576.19</Buchung>
+    <SaldoNeu>39042.72</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>39042.72</SaldoAlt>
+    <Buchung>407.78</Buchung>
+    <SaldoNeu>39450.49</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>39450.49</SaldoAlt>
+    <Buchung>17.28</Buchung>
+    <SaldoNeu>39467.78</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>39467.78</SaldoAlt>
+    <Buchung>882.40</Buchung>
+    <SaldoNeu>40350.18</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>40350.18</SaldoAlt>
+    <Buchung>202.20</Buchung>
+    <SaldoNeu>40552.38</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>40552.38</SaldoAlt>
+    <Buchung>166.68</Buchung>
+    <SaldoNeu>40719.06</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>40719.06</SaldoAlt>
+    <Buchung>10.75</Buchung>
+    <SaldoNeu>40729.81</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>40729.81</SaldoAlt>
+    <Buchung>791.09</Buchung>
+    <SaldoNeu>41520.89</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>41520.89</SaldoAlt>
+    <Buchung>293.36</Buchung>
+    <SaldoNeu>41814.25</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>41814.25</SaldoAlt>
+    <Buchung>542.99</Buchung>
+    <SaldoNeu>42357.24</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>42357.24</SaldoAlt>
+    <Buchung>748.14</Buchung>
+    <SaldoNeu>43105.38</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>43105.38</SaldoAlt>
+    <Buchung>314.66</Buchung>
+    <SaldoNeu>43420.05</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>43420.05</SaldoAlt>
+    <Buchung>64.60</Buchung>
+    <SaldoNeu>43484.64</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>43484.64</SaldoAlt>
+    <Buchung>878.66</Buchung>
+    <SaldoNeu>44363.31</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>44363.31</SaldoAlt>
+    <Buchung>150.51</Buchung>
+    <SaldoNeu>44513.81</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>44513.81</SaldoAlt>
+    <Buchung>690.13</Buchung>
+    <SaldoNeu>45203.94</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>45203.94</SaldoAlt>
+    <Buchung>526.21</Buchung>
+    <SaldoNeu>45730.15</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>45730.15</SaldoAlt>
+    <Buchung>173.90</Buchung>
+    <SaldoNeu>45904.06</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>45904.06</SaldoAlt>
+    <Buchung>108.00</Buchung>
+    <SaldoNeu>46012.06</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>46012.06</SaldoAlt>
+    <Buchung>167.75</Buchung>
+    <SaldoNeu>46179.81</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>46179.81</SaldoAlt>
+    <Buchung>400.47</Buchung>
+    <SaldoNeu>46580.28</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>46580.28</SaldoAlt>
+    <Buchung>644.98</Buchung>
+    <SaldoNeu>47225.26</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>47225.26</SaldoAlt>
+    <Buchung>50.42</Buchung>
+    <SaldoNeu>47275.68</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>47275.68</SaldoAlt>
+    <Buchung>485.60</Buchung>
+    <SaldoNeu>47761.28</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>47761.28</SaldoAlt>
+    <Buchung>37.47</Buchung>
+    <SaldoNeu>47798.75</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>47798.75</SaldoAlt>
+    <Buchung>280.04</Buchung>
+    <SaldoNeu>48078.78</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>48078.78</SaldoAlt>
+    <Buchung>741.40</Buchung>
+    <SaldoNeu>48820.18</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>48820.18</SaldoAlt>
+    <Buchung>31.66</Buchung>
+    <SaldoNeu>48851.85</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>48851.85</SaldoAlt>
+    <Buchung>651.41</Buchung>
+    <SaldoNeu>49503.26</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>49503.26</SaldoAlt>
+    <Buchung>118.38</Buchung>
+    <SaldoNeu>49621.64</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>49621.64</SaldoAlt>
+    <Buchung>565.57</Buchung>
+    <SaldoNeu>50187.21</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>50187.21</SaldoAlt>
+    <Buchung>461.52</Buchung>
+    <SaldoNeu>50648.73</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>50648.73</SaldoAlt>
+    <Buchung>700.17</Buchung>
+    <SaldoNeu>51348.89</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>51348.89</SaldoAlt>
+    <Buchung>822.69</Buchung>
+    <SaldoNeu>52171.58</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>52171.58</SaldoAlt>
+    <Buchung>806.91</Buchung>
+    <SaldoNeu>52978.49</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>52978.49</SaldoAlt>
+    <Buchung>904.54</Buchung>
+    <SaldoNeu>53883.03</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>53883.03</SaldoAlt>
+    <Buchung>610.39</Buchung>
+    <SaldoNeu>54493.42</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>54493.42</SaldoAlt>
+    <Buchung>993.83</Buchung>
+    <SaldoNeu>55487.25</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>55487.25</SaldoAlt>
+    <Buchung>243.33</Buchung>
+    <SaldoNeu>55730.58</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>55730.58</SaldoAlt>
+    <Buchung>849.61</Buchung>
+    <SaldoNeu>56580.19</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>56580.19</SaldoAlt>
+    <Buchung>444.21</Buchung>
+    <SaldoNeu>57024.40</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>57024.40</SaldoAlt>
+    <Buchung>267.43</Buchung>
+    <SaldoNeu>57291.83</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>57291.83</SaldoAlt>
+    <Buchung>922.63</Buchung>
+    <SaldoNeu>58214.46</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>58214.46</SaldoAlt>
+    <Buchung>30.99</Buchung>
+    <SaldoNeu>58245.45</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>58245.45</SaldoAlt>
+    <Buchung>871.67</Buchung>
+    <SaldoNeu>59117.12</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>59117.12</SaldoAlt>
+    <Buchung>242.74</Buchung>
+    <SaldoNeu>59359.86</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>59359.86</SaldoAlt>
+    <Buchung>611.50</Buchung>
+    <SaldoNeu>59971.37</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>59971.37</SaldoAlt>
+    <Buchung>246.28</Buchung>
+    <SaldoNeu>60217.64</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>60217.64</SaldoAlt>
+    <Buchung>23.90</Buchung>
+    <SaldoNeu>60241.55</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>60241.55</SaldoAlt>
+    <Buchung>653.62</Buchung>
+    <SaldoNeu>60895.17</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>60895.17</SaldoAlt>
+    <Buchung>354.36</Buchung>
+    <SaldoNeu>61249.53</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>61249.53</SaldoAlt>
+    <Buchung>673.61</Buchung>
+    <SaldoNeu>61923.15</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>61923.15</SaldoAlt>
+    <Buchung>940.08</Buchung>
+    <SaldoNeu>62863.23</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>62863.23</SaldoAlt>
+    <Buchung>415.97</Buchung>
+    <SaldoNeu>63279.19</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>63279.19</SaldoAlt>
+    <Buchung>745.26</Buchung>
+    <SaldoNeu>64024.46</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>64024.46</SaldoAlt>
+    <Buchung>385.89</Buchung>
+    <SaldoNeu>64410.34</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>64410.34</SaldoAlt>
+    <Buchung>238.95</Buchung>
+    <SaldoNeu>64649.30</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>64649.30</SaldoAlt>
+    <Buchung>26.76</Buchung>
+    <SaldoNeu>64676.06</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>64676.06</SaldoAlt>
+    <Buchung>111.28</Buchung>
+    <SaldoNeu>64787.34</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>64787.34</SaldoAlt>
+    <Buchung>116.41</Buchung>
+    <SaldoNeu>64903.75</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>64903.75</SaldoAlt>
+    <Buchung>322.71</Buchung>
+    <SaldoNeu>65226.45</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>65226.45</SaldoAlt>
+    <Buchung>309.98</Buchung>
+    <SaldoNeu>65536.43</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>65536.43</SaldoAlt>
+    <Buchung>429.03</Buchung>
+    <SaldoNeu>65965.46</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>65965.46</SaldoAlt>
+    <Buchung>576.67</Buchung>
+    <SaldoNeu>66542.13</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>66542.13</SaldoAlt>
+    <Buchung>570.68</Buchung>
+    <SaldoNeu>67112.81</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>67112.81</SaldoAlt>
+    <Buchung>207.62</Buchung>
+    <SaldoNeu>67320.43</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>67320.43</SaldoAlt>
+    <Buchung>956.07</Buchung>
+    <SaldoNeu>68276.50</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>68276.50</SaldoAlt>
+    <Buchung>277.73</Buchung>
+    <SaldoNeu>68554.23</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>68554.23</SaldoAlt>
+    <Buchung>826.33</Buchung>
+    <SaldoNeu>69380.56</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>69380.56</SaldoAlt>
+    <Buchung>418.80</Buchung>
+    <SaldoNeu>69799.36</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>69799.36</SaldoAlt>
+    <Buchung>897.21</Buchung>
+    <SaldoNeu>70696.57</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>70696.57</SaldoAlt>
+    <Buchung>464.58</Buchung>
+    <SaldoNeu>71161.15</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>71161.15</SaldoAlt>
+    <Buchung>958.39</Buchung>
+    <SaldoNeu>72119.54</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>72119.54</SaldoAlt>
+    <Buchung>746.40</Buchung>
+    <SaldoNeu>72865.94</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>72865.94</SaldoAlt>
+    <Buchung>417.85</Buchung>
+    <SaldoNeu>73283.79</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>73283.79</SaldoAlt>
+    <Buchung>979.00</Buchung>
+    <SaldoNeu>74262.79</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>74262.79</SaldoAlt>
+    <Buchung>966.27</Buchung>
+    <SaldoNeu>75229.06</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>75229.06</SaldoAlt>
+    <Buchung>284.56</Buchung>
+    <SaldoNeu>75513.62</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>75513.62</SaldoAlt>
+    <Buchung>526.46</Buchung>
+    <SaldoNeu>76040.09</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>76040.09</SaldoAlt>
+    <Buchung>998.87</Buchung>
+    <SaldoNeu>77038.96</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>77038.96</SaldoAlt>
+    <Buchung>27.05</Buchung>
+    <SaldoNeu>77066.01</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>77066.01</SaldoAlt>
+    <Buchung>119.54</Buchung>
+    <SaldoNeu>77185.55</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>77185.55</SaldoAlt>
+    <Buchung>392.47</Buchung>
+    <SaldoNeu>77578.01</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>77578.01</SaldoAlt>
+    <Buchung>730.35</Buchung>
+    <SaldoNeu>78308.36</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>78308.36</SaldoAlt>
+    <Buchung>831.36</Buchung>
+    <SaldoNeu>79139.72</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>79139.72</SaldoAlt>
+    <Buchung>287.83</Buchung>
+    <SaldoNeu>79427.55</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>79427.55</SaldoAlt>
+    <Buchung>685.86</Buchung>
+    <SaldoNeu>80113.41</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>80113.41</SaldoAlt>
+    <Buchung>65.23</Buchung>
+    <SaldoNeu>80178.64</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>80178.64</SaldoAlt>
+    <Buchung>153.90</Buchung>
+    <SaldoNeu>80332.54</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>80332.54</SaldoAlt>
+    <Buchung>510.66</Buchung>
+    <SaldoNeu>80843.20</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>80843.20</SaldoAlt>
+    <Buchung>843.75</Buchung>
+    <SaldoNeu>81686.94</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>81686.94</SaldoAlt>
+    <Buchung>728.83</Buchung>
+    <SaldoNeu>82415.77</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>82415.77</SaldoAlt>
+    <Buchung>728.23</Buchung>
+    <SaldoNeu>83144.00</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>83144.00</SaldoAlt>
+    <Buchung>114.12</Buchung>
+    <SaldoNeu>83258.12</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>83258.12</SaldoAlt>
+    <Buchung>841.12</Buchung>
+    <SaldoNeu>84099.24</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>84099.24</SaldoAlt>
+    <Buchung>254.78</Buchung>
+    <SaldoNeu>84354.02</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>84354.02</SaldoAlt>
+    <Buchung>388.54</Buchung>
+    <SaldoNeu>84742.55</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>84742.55</SaldoAlt>
+    <Buchung>858.92</Buchung>
+    <SaldoNeu>85601.48</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>85601.48</SaldoAlt>
+    <Buchung>523.96</Buchung>
+    <SaldoNeu>86125.44</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>86125.44</SaldoAlt>
+    <Buchung>100.00</Buchung>
+    <SaldoNeu>86225.44</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>86225.44</SaldoAlt>
+    <Buchung>345.27</Buchung>
+    <SaldoNeu>86570.71</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>86570.71</SaldoAlt>
+    <Buchung>785.05</Buchung>
+    <SaldoNeu>87355.76</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>87355.76</SaldoAlt>
+    <Buchung>819.80</Buchung>
+    <SaldoNeu>88175.56</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>88175.56</SaldoAlt>
+    <Buchung>410.22</Buchung>
+    <SaldoNeu>88585.78</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>88585.78</SaldoAlt>
+    <Buchung>780.51</Buchung>
+    <SaldoNeu>89366.30</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>89366.30</SaldoAlt>
+    <Buchung>723.89</Buchung>
+    <SaldoNeu>90090.18</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>90090.18</SaldoAlt>
+    <Buchung>57.65</Buchung>
+    <SaldoNeu>90147.83</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>90147.83</SaldoAlt>
+    <Buchung>496.91</Buchung>
+    <SaldoNeu>90644.74</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>90644.74</SaldoAlt>
+    <Buchung>308.70</Buchung>
+    <SaldoNeu>90953.44</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>90953.44</SaldoAlt>
+    <Buchung>964.26</Buchung>
+    <SaldoNeu>91917.70</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>91917.70</SaldoAlt>
+    <Buchung>733.13</Buchung>
+    <SaldoNeu>92650.82</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>92650.82</SaldoAlt>
+    <Buchung>899.00</Buchung>
+    <SaldoNeu>93549.83</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>93549.83</SaldoAlt>
+    <Buchung>778.72</Buchung>
+    <SaldoNeu>94328.54</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>94328.54</SaldoAlt>
+    <Buchung>148.36</Buchung>
+    <SaldoNeu>94476.90</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>94476.90</SaldoAlt>
+    <Buchung>96.33</Buchung>
+    <SaldoNeu>94573.23</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>94573.23</SaldoAlt>
+    <Buchung>132.80</Buchung>
+    <SaldoNeu>94706.03</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>94706.03</SaldoAlt>
+    <Buchung>162.78</Buchung>
+    <SaldoNeu>94868.81</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>94868.81</SaldoAlt>
+    <Buchung>877.94</Buchung>
+    <SaldoNeu>95746.75</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>95746.75</SaldoAlt>
+    <Buchung>7.82</Buchung>
+    <SaldoNeu>95754.57</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>95754.57</SaldoAlt>
+    <Buchung>534.22</Buchung>
+    <SaldoNeu>96288.79</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>96288.79</SaldoAlt>
+    <Buchung>96.89</Buchung>
+    <SaldoNeu>96385.68</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>96385.68</SaldoAlt>
+    <Buchung>436.07</Buchung>
+    <SaldoNeu>96821.75</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>96821.75</SaldoAlt>
+    <Buchung>960.94</Buchung>
+    <SaldoNeu>97782.69</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>97782.69</SaldoAlt>
+    <Buchung>965.11</Buchung>
+    <SaldoNeu>98747.79</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>98747.79</SaldoAlt>
+    <Buchung>917.11</Buchung>
+    <SaldoNeu>99664.91</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>99664.91</SaldoAlt>
+    <Buchung>309.61</Buchung>
+    <SaldoNeu>99974.52</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>99974.52</SaldoAlt>
+    <Buchung>491.14</Buchung>
+    <SaldoNeu>100465.66</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>100465.66</SaldoAlt>
+    <Buchung>681.64</Buchung>
+    <SaldoNeu>101147.29</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>101147.29</SaldoAlt>
+    <Buchung>33.07</Buchung>
+    <SaldoNeu>101180.36</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>101180.36</SaldoAlt>
+    <Buchung>680.07</Buchung>
+    <SaldoNeu>101860.44</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>101860.44</SaldoAlt>
+    <Buchung>683.98</Buchung>
+    <SaldoNeu>102544.41</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>102544.41</SaldoAlt>
+    <Buchung>633.56</Buchung>
+    <SaldoNeu>103177.97</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>103177.97</SaldoAlt>
+    <Buchung>223.50</Buchung>
+    <SaldoNeu>103401.47</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>103401.47</SaldoAlt>
+    <Buchung>439.51</Buchung>
+    <SaldoNeu>103840.98</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>103840.98</SaldoAlt>
+    <Buchung>956.90</Buchung>
+    <SaldoNeu>104797.88</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>104797.88</SaldoAlt>
+    <Buchung>481.12</Buchung>
+    <SaldoNeu>105279.00</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>105279.00</SaldoAlt>
+    <Buchung>660.94</Buchung>
+    <SaldoNeu>105939.95</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>105939.95</SaldoAlt>
+    <Buchung>814.23</Buchung>
+    <SaldoNeu>106754.18</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>106754.18</SaldoAlt>
+    <Buchung>467.62</Buchung>
+    <SaldoNeu>107221.80</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>107221.80</SaldoAlt>
+    <Buchung>149.38</Buchung>
+    <SaldoNeu>107371.18</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>107371.18</SaldoAlt>
+    <Buchung>184.78</Buchung>
+    <SaldoNeu>107555.96</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>107555.96</SaldoAlt>
+    <Buchung>58.70</Buchung>
+    <SaldoNeu>107614.65</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>107614.65</SaldoAlt>
+    <Buchung>321.41</Buchung>
+    <SaldoNeu>107936.06</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>107936.06</SaldoAlt>
+    <Buchung>844.25</Buchung>
+    <SaldoNeu>108780.32</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>108780.32</SaldoAlt>
+    <Buchung>932.20</Buchung>
+    <SaldoNeu>109712.52</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>109712.52</SaldoAlt>
+    <Buchung>291.14</Buchung>
+    <SaldoNeu>110003.66</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>110003.66</SaldoAlt>
+    <Buchung>441.42</Buchung>
+    <SaldoNeu>110445.08</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>110445.08</SaldoAlt>
+    <Buchung>78.02</Buchung>
+    <SaldoNeu>110523.09</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>110523.09</SaldoAlt>
+    <Buchung>699.63</Buchung>
+    <SaldoNeu>111222.73</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>111222.73</SaldoAlt>
+    <Buchung>930.84</Buchung>
+    <SaldoNeu>112153.57</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>112153.57</SaldoAlt>
+    <Buchung>989.29</Buchung>
+    <SaldoNeu>113142.86</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>113142.86</SaldoAlt>
+    <Buchung>903.99</Buchung>
+    <SaldoNeu>114046.85</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>114046.85</SaldoAlt>
+    <Buchung>755.54</Buchung>
+    <SaldoNeu>114802.39</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>114802.39</SaldoAlt>
+    <Buchung>556.38</Buchung>
+    <SaldoNeu>115358.77</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>115358.77</SaldoAlt>
+    <Buchung>334.23</Buchung>
+    <SaldoNeu>115693.00</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>115693.00</SaldoAlt>
+    <Buchung>26.84</Buchung>
+    <SaldoNeu>115719.84</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>115719.84</SaldoAlt>
+    <Buchung>161.39</Buchung>
+    <SaldoNeu>115881.23</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>115881.23</SaldoAlt>
+    <Buchung>774.11</Buchung>
+    <SaldoNeu>116655.34</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>116655.34</SaldoAlt>
+    <Buchung>18.82</Buchung>
+    <SaldoNeu>116674.16</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>116674.16</SaldoAlt>
+    <Buchung>111.64</Buchung>
+    <SaldoNeu>116785.80</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>116785.80</SaldoAlt>
+    <Buchung>201.86</Buchung>
+    <SaldoNeu>116987.66</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>116987.66</SaldoAlt>
+    <Buchung>592.95</Buchung>
+    <SaldoNeu>117580.60</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>117580.60</SaldoAlt>
+    <Buchung>364.54</Buchung>
+    <SaldoNeu>117945.14</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>117945.14</SaldoAlt>
+    <Buchung>167.69</Buchung>
+    <SaldoNeu>118112.83</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>118112.83</SaldoAlt>
+    <Buchung>52.18</Buchung>
+    <SaldoNeu>118165.01</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>118165.01</SaldoAlt>
+    <Buchung>411.78</Buchung>
+    <SaldoNeu>118576.79</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>118576.79</SaldoAlt>
+    <Buchung>809.27</Buchung>
+    <SaldoNeu>119386.05</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>119386.05</SaldoAlt>
+    <Buchung>35.47</Buchung>
+    <SaldoNeu>119421.52</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>119421.52</SaldoAlt>
+    <Buchung>88.74</Buchung>
+    <SaldoNeu>119510.26</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>119510.26</SaldoAlt>
+    <Buchung>643.29</Buchung>
+    <SaldoNeu>120153.55</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>120153.55</SaldoAlt>
+    <Buchung>957.33</Buchung>
+    <SaldoNeu>121110.88</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>121110.88</SaldoAlt>
+    <Buchung>914.26</Buchung>
+    <SaldoNeu>122025.14</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>122025.14</SaldoAlt>
+    <Buchung>908.97</Buchung>
+    <SaldoNeu>122934.12</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>122934.12</SaldoAlt>
+    <Buchung>166.47</Buchung>
+    <SaldoNeu>123100.59</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>123100.59</SaldoAlt>
+    <Buchung>939.23</Buchung>
+    <SaldoNeu>124039.82</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>124039.82</SaldoAlt>
+    <Buchung>248.77</Buchung>
+    <SaldoNeu>124288.59</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>124288.59</SaldoAlt>
+    <Buchung>154.33</Buchung>
+    <SaldoNeu>124442.92</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>124442.92</SaldoAlt>
+    <Buchung>419.23</Buchung>
+    <SaldoNeu>124862.15</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>124862.15</SaldoAlt>
+    <Buchung>946.14</Buchung>
+    <SaldoNeu>125808.30</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>125808.30</SaldoAlt>
+    <Buchung>80.79</Buchung>
+    <SaldoNeu>125889.09</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>125889.09</SaldoAlt>
+    <Buchung>564.47</Buchung>
+    <SaldoNeu>126453.56</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>126453.56</SaldoAlt>
+    <Buchung>165.07</Buchung>
+    <SaldoNeu>126618.64</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>126618.64</SaldoAlt>
+    <Buchung>681.05</Buchung>
+    <SaldoNeu>127299.68</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>127299.68</SaldoAlt>
+    <Buchung>507.18</Buchung>
+    <SaldoNeu>127806.86</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>127806.86</SaldoAlt>
+    <Buchung>112.17</Buchung>
+    <SaldoNeu>127919.03</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>127919.03</SaldoAlt>
+    <Buchung>854.75</Buchung>
+    <SaldoNeu>128773.78</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>128773.78</SaldoAlt>
+    <Buchung>213.99</Buchung>
+    <SaldoNeu>128987.77</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>128987.77</SaldoAlt>
+    <Buchung>439.36</Buchung>
+    <SaldoNeu>129427.14</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>129427.14</SaldoAlt>
+    <Buchung>589.80</Buchung>
+    <SaldoNeu>130016.93</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>130016.93</SaldoAlt>
+    <Buchung>309.73</Buchung>
+    <SaldoNeu>130326.67</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>130326.67</SaldoAlt>
+    <Buchung>78.78</Buchung>
+    <SaldoNeu>130405.45</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>130405.45</SaldoAlt>
+    <Buchung>18.52</Buchung>
+    <SaldoNeu>130423.98</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>130423.98</SaldoAlt>
+    <Buchung>524.63</Buchung>
+    <SaldoNeu>130948.61</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>130948.61</SaldoAlt>
+    <Buchung>329.40</Buchung>
+    <SaldoNeu>131278.00</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>131278.00</SaldoAlt>
+    <Buchung>679.24</Buchung>
+    <SaldoNeu>131957.25</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>131957.25</SaldoAlt>
+    <Buchung>613.86</Buchung>
+    <SaldoNeu>132571.11</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>132571.11</SaldoAlt>
+    <Buchung>256.40</Buchung>
+    <SaldoNeu>132827.51</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>132827.51</SaldoAlt>
+    <Buchung>317.62</Buchung>
+    <SaldoNeu>133145.13</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>133145.13</SaldoAlt>
+    <Buchung>595.33</Buchung>
+    <SaldoNeu>133740.46</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>133740.46</SaldoAlt>
+    <Buchung>690.62</Buchung>
+    <SaldoNeu>134431.08</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>134431.08</SaldoAlt>
+    <Buchung>719.94</Buchung>
+    <SaldoNeu>135151.01</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>135151.01</SaldoAlt>
+    <Buchung>666.77</Buchung>
+    <SaldoNeu>135817.78</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>135817.78</SaldoAlt>
+    <Buchung>513.75</Buchung>
+    <SaldoNeu>136331.53</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>136331.53</SaldoAlt>
+    <Buchung>503.52</Buchung>
+    <SaldoNeu>136835.04</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>136835.04</SaldoAlt>
+    <Buchung>439.77</Buchung>
+    <SaldoNeu>137274.81</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>137274.81</SaldoAlt>
+    <Buchung>392.21</Buchung>
+    <SaldoNeu>137667.02</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>137667.02</SaldoAlt>
+    <Buchung>553.59</Buchung>
+    <SaldoNeu>138220.62</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>138220.62</SaldoAlt>
+    <Buchung>57.63</Buchung>
+    <SaldoNeu>138278.25</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>138278.25</SaldoAlt>
+    <Buchung>634.02</Buchung>
+    <SaldoNeu>138912.27</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>138912.27</SaldoAlt>
+    <Buchung>206.43</Buchung>
+    <SaldoNeu>139118.71</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>139118.71</SaldoAlt>
+    <Buchung>677.63</Buchung>
+    <SaldoNeu>139796.34</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>139796.34</SaldoAlt>
+    <Buchung>722.39</Buchung>
+    <SaldoNeu>140518.72</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>140518.72</SaldoAlt>
+    <Buchung>276.79</Buchung>
+    <SaldoNeu>140795.51</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>140795.51</SaldoAlt>
+    <Buchung>222.27</Buchung>
+    <SaldoNeu>141017.78</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>141017.78</SaldoAlt>
+    <Buchung>562.96</Buchung>
+    <SaldoNeu>141580.74</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>141580.74</SaldoAlt>
+    <Buchung>532.06</Buchung>
+    <SaldoNeu>142112.79</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>142112.79</SaldoAlt>
+    <Buchung>152.64</Buchung>
+    <SaldoNeu>142265.43</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>142265.43</SaldoAlt>
+    <Buchung>995.11</Buchung>
+    <SaldoNeu>143260.54</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>143260.54</SaldoAlt>
+    <Buchung>421.68</Buchung>
+    <SaldoNeu>143682.22</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>143682.22</SaldoAlt>
+    <Buchung>716.30</Buchung>
+    <SaldoNeu>144398.52</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>144398.52</SaldoAlt>
+    <Buchung>783.75</Buchung>
+    <SaldoNeu>145182.27</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>145182.27</SaldoAlt>
+    <Buchung>827.98</Buchung>
+    <SaldoNeu>146010.25</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>146010.25</SaldoAlt>
+    <Buchung>319.28</Buchung>
+    <SaldoNeu>146329.53</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>146329.53</SaldoAlt>
+    <Buchung>385.36</Buchung>
+    <SaldoNeu>146714.90</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>146714.90</SaldoAlt>
+    <Buchung>530.42</Buchung>
+    <SaldoNeu>147245.32</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>147245.32</SaldoAlt>
+    <Buchung>325.04</Buchung>
+    <SaldoNeu>147570.36</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>147570.36</SaldoAlt>
+    <Buchung>138.23</Buchung>
+    <SaldoNeu>147708.59</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>147708.59</SaldoAlt>
+    <Buchung>835.13</Buchung>
+    <SaldoNeu>148543.73</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>148543.73</SaldoAlt>
+    <Buchung>723.54</Buchung>
+    <SaldoNeu>149267.27</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>149267.27</SaldoAlt>
+    <Buchung>220.64</Buchung>
+    <SaldoNeu>149487.90</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>149487.90</SaldoAlt>
+    <Buchung>642.28</Buchung>
+    <SaldoNeu>150130.18</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>150130.18</SaldoAlt>
+    <Buchung>637.88</Buchung>
+    <SaldoNeu>150768.06</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>150768.06</SaldoAlt>
+    <Buchung>537.98</Buchung>
+    <SaldoNeu>151306.03</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>151306.03</SaldoAlt>
+    <Buchung>836.87</Buchung>
+    <SaldoNeu>152142.90</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>152142.90</SaldoAlt>
+    <Buchung>558.90</Buchung>
+    <SaldoNeu>152701.81</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>152701.81</SaldoAlt>
+    <Buchung>124.40</Buchung>
+    <SaldoNeu>152826.21</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>152826.21</SaldoAlt>
+    <Buchung>145.35</Buchung>
+    <SaldoNeu>152971.56</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>152971.56</SaldoAlt>
+    <Buchung>529.05</Buchung>
+    <SaldoNeu>153500.61</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>153500.61</SaldoAlt>
+    <Buchung>53.98</Buchung>
+    <SaldoNeu>153554.58</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>153554.58</SaldoAlt>
+    <Buchung>310.45</Buchung>
+    <SaldoNeu>153865.04</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>153865.04</SaldoAlt>
+    <Buchung>270.06</Buchung>
+    <SaldoNeu>154135.09</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>154135.09</SaldoAlt>
+    <Buchung>883.44</Buchung>
+    <SaldoNeu>155018.54</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>155018.54</SaldoAlt>
+    <Buchung>745.69</Buchung>
+    <SaldoNeu>155764.23</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>155764.23</SaldoAlt>
+    <Buchung>388.55</Buchung>
+    <SaldoNeu>156152.78</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>156152.78</SaldoAlt>
+    <Buchung>250.97</Buchung>
+    <SaldoNeu>156403.75</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>156403.75</SaldoAlt>
+    <Buchung>389.50</Buchung>
+    <SaldoNeu>156793.25</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>156793.25</SaldoAlt>
+    <Buchung>584.60</Buchung>
+    <SaldoNeu>157377.85</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>157377.85</SaldoAlt>
+    <Buchung>361.97</Buchung>
+    <SaldoNeu>157739.82</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>157739.82</SaldoAlt>
+    <Buchung>604.42</Buchung>
+    <SaldoNeu>158344.24</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>158344.24</SaldoAlt>
+    <Buchung>513.39</Buchung>
+    <SaldoNeu>158857.62</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>158857.62</SaldoAlt>
+    <Buchung>231.16</Buchung>
+    <SaldoNeu>159088.78</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>159088.78</SaldoAlt>
+    <Buchung>50.41</Buchung>
+    <SaldoNeu>159139.19</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>159139.19</SaldoAlt>
+    <Buchung>241.65</Buchung>
+    <SaldoNeu>159380.84</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>159380.84</SaldoAlt>
+    <Buchung>990.84</Buchung>
+    <SaldoNeu>160371.68</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>160371.68</SaldoAlt>
+    <Buchung>974.14</Buchung>
+    <SaldoNeu>161345.82</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>161345.82</SaldoAlt>
+    <Buchung>844.77</Buchung>
+    <SaldoNeu>162190.60</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>162190.60</SaldoAlt>
+    <Buchung>291.02</Buchung>
+    <SaldoNeu>162481.61</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>162481.61</SaldoAlt>
+    <Buchung>627.33</Buchung>
+    <SaldoNeu>163108.95</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>163108.95</SaldoAlt>
+    <Buchung>263.80</Buchung>
+    <SaldoNeu>163372.75</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>163372.75</SaldoAlt>
+    <Buchung>778.77</Buchung>
+    <SaldoNeu>164151.52</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>164151.52</SaldoAlt>
+    <Buchung>334.83</Buchung>
+    <SaldoNeu>164486.34</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>164486.34</SaldoAlt>
+    <Buchung>651.23</Buchung>
+    <SaldoNeu>165137.58</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>165137.58</SaldoAlt>
+    <Buchung>15.33</Buchung>
+    <SaldoNeu>165152.90</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>165152.90</SaldoAlt>
+    <Buchung>509.54</Buchung>
+    <SaldoNeu>165662.44</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>165662.44</SaldoAlt>
+    <Buchung>406.48</Buchung>
+    <SaldoNeu>166068.92</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>166068.92</SaldoAlt>
+    <Buchung>247.13</Buchung>
+    <SaldoNeu>166316.05</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>166316.05</SaldoAlt>
+    <Buchung>764.87</Buchung>
+    <SaldoNeu>167080.92</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>167080.92</SaldoAlt>
+    <Buchung>634.94</Buchung>
+    <SaldoNeu>167715.86</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>167715.86</SaldoAlt>
+    <Buchung>66.44</Buchung>
+    <SaldoNeu>167782.30</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>167782.30</SaldoAlt>
+    <Buchung>855.45</Buchung>
+    <SaldoNeu>168637.74</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>168637.74</SaldoAlt>
+    <Buchung>478.87</Buchung>
+    <SaldoNeu>169116.62</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>169116.62</SaldoAlt>
+    <Buchung>159.22</Buchung>
+    <SaldoNeu>169275.83</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>169275.83</SaldoAlt>
+    <Buchung>709.13</Buchung>
+    <SaldoNeu>169984.96</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>169984.96</SaldoAlt>
+    <Buchung>194.53</Buchung>
+    <SaldoNeu>170179.50</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>170179.50</SaldoAlt>
+    <Buchung>135.10</Buchung>
+    <SaldoNeu>170314.60</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>170314.60</SaldoAlt>
+    <Buchung>663.77</Buchung>
+    <SaldoNeu>170978.37</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>170978.37</SaldoAlt>
+    <Buchung>80.53</Buchung>
+    <SaldoNeu>171058.90</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>171058.90</SaldoAlt>
+    <Buchung>722.82</Buchung>
+    <SaldoNeu>171781.72</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>171781.72</SaldoAlt>
+    <Buchung>419.20</Buchung>
+    <SaldoNeu>172200.92</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>172200.92</SaldoAlt>
+    <Buchung>619.98</Buchung>
+    <SaldoNeu>172820.90</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>172820.90</SaldoAlt>
+    <Buchung>226.02</Buchung>
+    <SaldoNeu>173046.92</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>173046.92</SaldoAlt>
+    <Buchung>498.01</Buchung>
+    <SaldoNeu>173544.93</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>173544.93</SaldoAlt>
+    <Buchung>681.24</Buchung>
+    <SaldoNeu>174226.17</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>174226.17</SaldoAlt>
+    <Buchung>383.64</Buchung>
+    <SaldoNeu>174609.81</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>174609.81</SaldoAlt>
+    <Buchung>34.35</Buchung>
+    <SaldoNeu>174644.16</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>174644.16</SaldoAlt>
+    <Buchung>416.24</Buchung>
+    <SaldoNeu>175060.40</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>175060.40</SaldoAlt>
+    <Buchung>362.00</Buchung>
+    <SaldoNeu>175422.39</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>175422.39</SaldoAlt>
+    <Buchung>148.38</Buchung>
+    <SaldoNeu>175570.77</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>175570.77</SaldoAlt>
+    <Buchung>151.62</Buchung>
+    <SaldoNeu>175722.39</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>175722.39</SaldoAlt>
+    <Buchung>660.84</Buchung>
+    <SaldoNeu>176383.22</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>176383.22</SaldoAlt>
+    <Buchung>565.31</Buchung>
+    <SaldoNeu>176948.54</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>176948.54</SaldoAlt>
+    <Buchung>968.12</Buchung>
+    <SaldoNeu>177916.66</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>177916.66</SaldoAlt>
+    <Buchung>119.15</Buchung>
+    <SaldoNeu>178035.81</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>178035.81</SaldoAlt>
+    <Buchung>935.85</Buchung>
+    <SaldoNeu>178971.66</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>178971.66</SaldoAlt>
+    <Buchung>737.24</Buchung>
+    <SaldoNeu>179708.89</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>179708.89</SaldoAlt>
+    <Buchung>872.16</Buchung>
+    <SaldoNeu>180581.06</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>180581.06</SaldoAlt>
+    <Buchung>702.21</Buchung>
+    <SaldoNeu>181283.27</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>181283.27</SaldoAlt>
+    <Buchung>925.57</Buchung>
+    <SaldoNeu>182208.84</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>182208.84</SaldoAlt>
+    <Buchung>699.90</Buchung>
+    <SaldoNeu>182908.74</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>182908.74</SaldoAlt>
+    <Buchung>823.58</Buchung>
+    <SaldoNeu>183732.32</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>183732.32</SaldoAlt>
+    <Buchung>387.48</Buchung>
+    <SaldoNeu>184119.80</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>184119.80</SaldoAlt>
+    <Buchung>908.20</Buchung>
+    <SaldoNeu>185028.00</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>185028.00</SaldoAlt>
+    <Buchung>92.66</Buchung>
+    <SaldoNeu>185120.65</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>185120.65</SaldoAlt>
+    <Buchung>21.39</Buchung>
+    <SaldoNeu>185142.04</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>185142.04</SaldoAlt>
+    <Buchung>887.16</Buchung>
+    <SaldoNeu>186029.21</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>186029.21</SaldoAlt>
+    <Buchung>91.48</Buchung>
+    <SaldoNeu>186120.68</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>186120.68</SaldoAlt>
+    <Buchung>845.06</Buchung>
+    <SaldoNeu>186965.74</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>186965.74</SaldoAlt>
+    <Buchung>121.81</Buchung>
+    <SaldoNeu>187087.55</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>187087.55</SaldoAlt>
+    <Buchung>854.54</Buchung>
+    <SaldoNeu>187942.09</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>187942.09</SaldoAlt>
+    <Buchung>837.14</Buchung>
+    <SaldoNeu>188779.23</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>188779.23</SaldoAlt>
+    <Buchung>323.75</Buchung>
+    <SaldoNeu>189102.99</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>189102.99</SaldoAlt>
+    <Buchung>400.78</Buchung>
+    <SaldoNeu>189503.77</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>189503.77</SaldoAlt>
+    <Buchung>972.53</Buchung>
+    <SaldoNeu>190476.30</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>190476.30</SaldoAlt>
+    <Buchung>717.66</Buchung>
+    <SaldoNeu>191193.95</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>191193.95</SaldoAlt>
+    <Buchung>573.51</Buchung>
+    <SaldoNeu>191767.46</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>191767.46</SaldoAlt>
+    <Buchung>397.44</Buchung>
+    <SaldoNeu>192164.91</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>192164.91</SaldoAlt>
+    <Buchung>257.96</Buchung>
+    <SaldoNeu>192422.87</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>192422.87</SaldoAlt>
+    <Buchung>600.65</Buchung>
+    <SaldoNeu>193023.52</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>193023.52</SaldoAlt>
+    <Buchung>898.74</Buchung>
+    <SaldoNeu>193922.26</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>193922.26</SaldoAlt>
+    <Buchung>719.57</Buchung>
+    <SaldoNeu>194641.83</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>194641.83</SaldoAlt>
+    <Buchung>663.74</Buchung>
+    <SaldoNeu>195305.57</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>195305.57</SaldoAlt>
+    <Buchung>670.82</Buchung>
+    <SaldoNeu>195976.39</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>195976.39</SaldoAlt>
+    <Buchung>684.27</Buchung>
+    <SaldoNeu>196660.67</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>196660.67</SaldoAlt>
+    <Buchung>527.77</Buchung>
+    <SaldoNeu>197188.43</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>197188.43</SaldoAlt>
+    <Buchung>208.18</Buchung>
+    <SaldoNeu>197396.62</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>197396.62</SaldoAlt>
+    <Buchung>857.39</Buchung>
+    <SaldoNeu>198254.00</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>198254.00</SaldoAlt>
+    <Buchung>591.10</Buchung>
+    <SaldoNeu>198845.10</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>198845.10</SaldoAlt>
+    <Buchung>215.13</Buchung>
+    <SaldoNeu>199060.23</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>199060.23</SaldoAlt>
+    <Buchung>745.33</Buchung>
+    <SaldoNeu>199805.56</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>199805.56</SaldoAlt>
+    <Buchung>349.00</Buchung>
+    <SaldoNeu>200154.56</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>200154.56</SaldoAlt>
+    <Buchung>755.92</Buchung>
+    <SaldoNeu>200910.48</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>200910.48</SaldoAlt>
+    <Buchung>693.17</Buchung>
+    <SaldoNeu>201603.65</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>201603.65</SaldoAlt>
+    <Buchung>226.00</Buchung>
+    <SaldoNeu>201829.65</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>201829.65</SaldoAlt>
+    <Buchung>103.70</Buchung>
+    <SaldoNeu>201933.36</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>201933.36</SaldoAlt>
+    <Buchung>87.68</Buchung>
+    <SaldoNeu>202021.04</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>202021.04</SaldoAlt>
+    <Buchung>710.27</Buchung>
+    <SaldoNeu>202731.30</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>202731.30</SaldoAlt>
+    <Buchung>716.83</Buchung>
+    <SaldoNeu>203448.14</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>203448.14</SaldoAlt>
+    <Buchung>751.72</Buchung>
+    <SaldoNeu>204199.85</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>204199.85</SaldoAlt>
+    <Buchung>77.98</Buchung>
+    <SaldoNeu>204277.83</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>204277.83</SaldoAlt>
+    <Buchung>500.42</Buchung>
+    <SaldoNeu>204778.25</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>204778.25</SaldoAlt>
+    <Buchung>146.31</Buchung>
+    <SaldoNeu>204924.56</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>204924.56</SaldoAlt>
+    <Buchung>966.32</Buchung>
+    <SaldoNeu>205890.88</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>205890.88</SaldoAlt>
+    <Buchung>265.45</Buchung>
+    <SaldoNeu>206156.33</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>206156.33</SaldoAlt>
+    <Buchung>193.89</Buchung>
+    <SaldoNeu>206350.22</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>206350.22</SaldoAlt>
+    <Buchung>745.52</Buchung>
+    <SaldoNeu>207095.74</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>207095.74</SaldoAlt>
+    <Buchung>602.22</Buchung>
+    <SaldoNeu>207697.96</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>207697.96</SaldoAlt>
+    <Buchung>258.36</Buchung>
+    <SaldoNeu>207956.32</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>207956.32</SaldoAlt>
+    <Buchung>995.37</Buchung>
+    <SaldoNeu>208951.69</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>208951.69</SaldoAlt>
+    <Buchung>408.86</Buchung>
+    <SaldoNeu>209360.55</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>209360.55</SaldoAlt>
+    <Buchung>998.03</Buchung>
+    <SaldoNeu>210358.58</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>210358.58</SaldoAlt>
+    <Buchung>831.25</Buchung>
+    <SaldoNeu>211189.83</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>211189.83</SaldoAlt>
+    <Buchung>950.45</Buchung>
+    <SaldoNeu>212140.28</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>212140.28</SaldoAlt>
+    <Buchung>378.42</Buchung>
+    <SaldoNeu>212518.70</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>212518.70</SaldoAlt>
+    <Buchung>906.02</Buchung>
+    <SaldoNeu>213424.73</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>213424.73</SaldoAlt>
+    <Buchung>252.74</Buchung>
+    <SaldoNeu>213677.47</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>213677.47</SaldoAlt>
+    <Buchung>326.90</Buchung>
+    <SaldoNeu>214004.36</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>214004.36</SaldoAlt>
+    <Buchung>920.64</Buchung>
+    <SaldoNeu>214925.00</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>214925.00</SaldoAlt>
+    <Buchung>1.97</Buchung>
+    <SaldoNeu>214926.97</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>214926.97</SaldoAlt>
+    <Buchung>819.36</Buchung>
+    <SaldoNeu>215746.33</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>215746.33</SaldoAlt>
+    <Buchung>27.42</Buchung>
+    <SaldoNeu>215773.75</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>215773.75</SaldoAlt>
+    <Buchung>960.84</Buchung>
+    <SaldoNeu>216734.59</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>216734.59</SaldoAlt>
+    <Buchung>359.72</Buchung>
+    <SaldoNeu>217094.31</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>217094.31</SaldoAlt>
+    <Buchung>916.15</Buchung>
+    <SaldoNeu>218010.46</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>218010.46</SaldoAlt>
+    <Buchung>914.15</Buchung>
+    <SaldoNeu>218924.61</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>218924.61</SaldoAlt>
+    <Buchung>993.28</Buchung>
+    <SaldoNeu>219917.89</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>219917.89</SaldoAlt>
+    <Buchung>272.47</Buchung>
+    <SaldoNeu>220190.36</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>220190.36</SaldoAlt>
+    <Buchung>535.61</Buchung>
+    <SaldoNeu>220725.97</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>220725.97</SaldoAlt>
+    <Buchung>772.57</Buchung>
+    <SaldoNeu>221498.54</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>221498.54</SaldoAlt>
+    <Buchung>444.38</Buchung>
+    <SaldoNeu>221942.92</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>221942.92</SaldoAlt>
+    <Buchung>852.81</Buchung>
+    <SaldoNeu>222795.73</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>222795.73</SaldoAlt>
+    <Buchung>549.46</Buchung>
+    <SaldoNeu>223345.19</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>223345.19</SaldoAlt>
+    <Buchung>775.36</Buchung>
+    <SaldoNeu>224120.55</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>224120.55</SaldoAlt>
+    <Buchung>37.39</Buchung>
+    <SaldoNeu>224157.94</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>224157.94</SaldoAlt>
+    <Buchung>574.45</Buchung>
+    <SaldoNeu>224732.39</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>224732.39</SaldoAlt>
+    <Buchung>203.33</Buchung>
+    <SaldoNeu>224935.72</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>224935.72</SaldoAlt>
+    <Buchung>823.01</Buchung>
+    <SaldoNeu>225758.73</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>225758.73</SaldoAlt>
+    <Buchung>849.14</Buchung>
+    <SaldoNeu>226607.88</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>226607.88</SaldoAlt>
+    <Buchung>17.08</Buchung>
+    <SaldoNeu>226624.96</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>226624.96</SaldoAlt>
+    <Buchung>215.36</Buchung>
+    <SaldoNeu>226840.32</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>226840.32</SaldoAlt>
+    <Buchung>112.84</Buchung>
+    <SaldoNeu>226953.16</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>226953.16</SaldoAlt>
+    <Buchung>359.92</Buchung>
+    <SaldoNeu>227313.08</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>227313.08</SaldoAlt>
+    <Buchung>18.90</Buchung>
+    <SaldoNeu>227331.98</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>227331.98</SaldoAlt>
+    <Buchung>426.38</Buchung>
+    <SaldoNeu>227758.36</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>227758.36</SaldoAlt>
+    <Buchung>338.09</Buchung>
+    <SaldoNeu>228096.45</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>228096.45</SaldoAlt>
+    <Buchung>311.62</Buchung>
+    <SaldoNeu>228408.06</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>228408.06</SaldoAlt>
+    <Buchung>649.73</Buchung>
+    <SaldoNeu>229057.79</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>229057.79</SaldoAlt>
+    <Buchung>149.92</Buchung>
+    <SaldoNeu>229207.72</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>229207.72</SaldoAlt>
+    <Buchung>692.93</Buchung>
+    <SaldoNeu>229900.64</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>229900.64</SaldoAlt>
+    <Buchung>126.93</Buchung>
+    <SaldoNeu>230027.57</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>230027.57</SaldoAlt>
+    <Buchung>992.84</Buchung>
+    <SaldoNeu>231020.41</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>231020.41</SaldoAlt>
+    <Buchung>148.12</Buchung>
+    <SaldoNeu>231168.53</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>231168.53</SaldoAlt>
+    <Buchung>490.65</Buchung>
+    <SaldoNeu>231659.18</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>231659.18</SaldoAlt>
+    <Buchung>425.36</Buchung>
+    <SaldoNeu>232084.54</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>232084.54</SaldoAlt>
+    <Buchung>619.31</Buchung>
+    <SaldoNeu>232703.85</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>232703.85</SaldoAlt>
+    <Buchung>975.10</Buchung>
+    <SaldoNeu>233678.95</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>233678.95</SaldoAlt>
+    <Buchung>984.98</Buchung>
+    <SaldoNeu>234663.93</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>234663.93</SaldoAlt>
+    <Buchung>646.19</Buchung>
+    <SaldoNeu>235310.12</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>235310.12</SaldoAlt>
+    <Buchung>111.91</Buchung>
+    <SaldoNeu>235422.04</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>235422.04</SaldoAlt>
+    <Buchung>972.02</Buchung>
+    <SaldoNeu>236394.06</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>236394.06</SaldoAlt>
+    <Buchung>141.31</Buchung>
+    <SaldoNeu>236535.37</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>236535.37</SaldoAlt>
+    <Buchung>111.64</Buchung>
+    <SaldoNeu>236647.01</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>236647.01</SaldoAlt>
+    <Buchung>12.10</Buchung>
+    <SaldoNeu>236659.10</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>236659.10</SaldoAlt>
+    <Buchung>327.57</Buchung>
+    <SaldoNeu>236986.67</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>236986.67</SaldoAlt>
+    <Buchung>154.69</Buchung>
+    <SaldoNeu>237141.36</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>237141.36</SaldoAlt>
+    <Buchung>464.72</Buchung>
+    <SaldoNeu>237606.08</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>237606.08</SaldoAlt>
+    <Buchung>884.50</Buchung>
+    <SaldoNeu>238490.58</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>238490.58</SaldoAlt>
+    <Buchung>987.18</Buchung>
+    <SaldoNeu>239477.76</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>239477.76</SaldoAlt>
+    <Buchung>305.74</Buchung>
+    <SaldoNeu>239783.49</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>239783.49</SaldoAlt>
+    <Buchung>460.47</Buchung>
+    <SaldoNeu>240243.96</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>240243.96</SaldoAlt>
+    <Buchung>714.57</Buchung>
+    <SaldoNeu>240958.54</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>240958.54</SaldoAlt>
+    <Buchung>22.75</Buchung>
+    <SaldoNeu>240981.29</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>240981.29</SaldoAlt>
+    <Buchung>790.27</Buchung>
+    <SaldoNeu>241771.56</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>241771.56</SaldoAlt>
+    <Buchung>964.08</Buchung>
+    <SaldoNeu>242735.64</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>242735.64</SaldoAlt>
+    <Buchung>276.81</Buchung>
+    <SaldoNeu>243012.45</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>243012.45</SaldoAlt>
+    <Buchung>170.14</Buchung>
+    <SaldoNeu>243182.59</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>243182.59</SaldoAlt>
+    <Buchung>602.95</Buchung>
+    <SaldoNeu>243785.54</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>243785.54</SaldoAlt>
+    <Buchung>264.87</Buchung>
+    <SaldoNeu>244050.41</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>244050.41</SaldoAlt>
+    <Buchung>858.08</Buchung>
+    <SaldoNeu>244908.49</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>244908.49</SaldoAlt>
+    <Buchung>487.09</Buchung>
+    <SaldoNeu>245395.57</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>245395.57</SaldoAlt>
+    <Buchung>691.40</Buchung>
+    <SaldoNeu>246086.97</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>246086.97</SaldoAlt>
+    <Buchung>581.92</Buchung>
+    <SaldoNeu>246668.89</SaldoNeu>
+  </Vorgang>
+  <Vorgang>
+    <Datum>Mon May 19 13:21:23 CEST 2014</Datum>
+    <SaldoAlt>246668.89</SaldoAlt>
+    <Buchung>717.61</Buchung>
+    <SaldoNeu>247386.50</SaldoNeu>
+  </Vorgang>
+</Kontoauszug>
