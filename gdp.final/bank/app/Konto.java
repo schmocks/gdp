@@ -125,8 +125,8 @@ public class Konto {
 	 * Gibt Auszug als String auf der Konsole aus
 	 * @return Auszug als String
 	 */
-	public String[] getAuszug(){
-		String[] x = (String[]) Auszug.toArray(new String[Auszug.size()]); 
+	public Vorgang[] getAuszug(){
+		Vorgang[] x = Auszug.toArray(new Vorgang[Auszug.size()]); 
 		
 		return x;
 	}

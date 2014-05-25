@@ -4,8 +4,10 @@ import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.math.BigDecimal;
 import java.util.Observable;
 import java.util.Observer;
+
 import bank.app.*;
 
 import javax.swing.JButton;
@@ -26,10 +28,16 @@ public class MainView extends JFrame implements Observer{
 	JTextField tf1;
 	JButton kua,kul,kaus,alko,exit,ge,ga;
 	JLabel gkunden,gsaldo,mkunden,status;
+	BigDecimal Betrag;
+	int regkonto;
+	int miese;
 	
 	public MainView(Bank b){
 		super("Die Super Bank App");
 		model = b;
+		miese = b.getMieseKunden();
+		Betrag = b.getGesamtBetrag();
+		regkonto = b.getKonten().size();
 		getContentPane().setLayout(new BorderLayout());
 		JPanel panel = new JPanel(new GridLayout(4,1));
 		JPanel bpanel = new JPanel(new GridLayout(7, 1));
@@ -37,13 +45,14 @@ public class MainView extends JFrame implements Observer{
 		kul = new JButton("Kunden löschen");kul.addActionListener(this.new Controller());
 		ge = new JButton("Geld einzahlen");ge.addActionListener(this.new Controller());
 		ga = new JButton("Geld auszahlen");ga.addActionListener(this.new Controller());
-		kaus = new JButton("Kontoauszug drucken");kaus.addActionListener(this.new Controller());
+		kaus = new JButton("Kontoauszug anzeigen");kaus.addActionListener(this.new Controller());
 		alko = new JButton("Alle Konten anzeigen");alko.addActionListener(this.new Controller());
 		exit = new JButton("Exit");exit.addActionListener(this.new Controller());
 		status = new JLabel(" " + "Status:");
-		gkunden = new JLabel(" " + b.getKonten().size()+ " Konten registriert");
-		gsaldo = new JLabel(" " + b.getGesamtBetrag() + " € eingelagert");
-		mkunden = new JLabel(" " + b.getMieseKunden() + " Kunden mit negativem Saldo");
+		gkunden = new JLabel(" " + regkonto + " Konten registriert");
+		gsaldo = new JLabel(" " + Betrag + " € eingelagert");
+		mkunden = new JLabel(" " + miese + " Kunden mit negativem Saldo");
+		System.out.println(Betrag);
 		/*t = new JTextField(ti);
 		m = new JTextField(mi);
 		j = new JTextField(ji);
@@ -80,7 +89,11 @@ public class MainView extends JFrame implements Observer{
 	
 	@Override
 	public void update(Observable o, Object arg) {
-		// TODO Auto-generated method stub
+		setVisible(true);
+		gkunden.setText(" " + model.getKonten().size() + " Konten registriert");
+		gsaldo.setText(" " + model.getGesamtBetrag() + " € eingelagert");
+		mkunden.setText(" " + model.getMieseKunden() + " Kunden mit negativem Saldo");
+		repaint();
 		
 	}
 	
@@ -95,8 +108,26 @@ public class MainView extends JFrame implements Observer{
 				if (e.getSource() == exit) {
 				setVisible(false);
 				dispose();
-			
 				}
+				if(e.getSource() == alko){
+					model.addObserver(new KontoAnzeigenView(model));
+					
+				}
+				
+				if(e.getSource() == ge){
+					setVisible(false);
+					model.addObserver(new KundenSuche(model,0));
+				}
+				if(e.getSource() == ga){
+					setVisible(false);
+					model.addObserver(new KundenSuche(model,1));
+				}
+				if(e.getSource() == kaus){
+					setVisible(false);
+					model.addObserver(new KundenSuche(model,2));
+				}
+				
+				
 			}
 	}
 }

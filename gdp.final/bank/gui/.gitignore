@@ -3,3 +3,15 @@
 /MainView.class
 /Bank.class
 /MainView$Controller.class
+/KundenAnlegenView.class
+/KontoAnzeigenView.class
+/KontoAnzeigenView$1.class
+/KundenSuche.class
+/KundenSuche$Controller.class
+/GeldEinzahlenView.class
+/GeldEinzahlenView$Controller.class
+/GeldAuszahlen.class
+/GeldAuszahlenView$Controller.class
+/GeldAuszahlenView.class
+/KontoauszugView.class
+/KontoauszugView$1.class

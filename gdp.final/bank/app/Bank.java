@@ -4,8 +4,11 @@ package bank.app;
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+
 import java.util.Observable;
 import java.util.Scanner;
+
+
 
 /**
  * Bank Klasse
@@ -466,7 +469,39 @@ public class Bank extends Observable {
 	
 	
 	public ArrayList<Konto> getKonten(){
-		return konten;
+		Konto[] konto = konten.toArray(new Konto[konten.size()]);
+		Konto temp=null;
+		for(int i=1; i<konto.length; i++) {
+			for(int j=0; j<konto.length-i; j++) {
+				if(konto[j].getKontonummer()>konto[j+1].getKontonummer()) {
+					temp=konto[j]; konto[j]=konto[j+1]; konto[j+1]=temp;
+					}
+				}
+			}
+		ArrayList<Konto> k = new ArrayList<Konto>();
+		for(int x=0;x<konto.length;x++){k.add(konto[x]);}
+		
+		
+		return k;
+	}
+	
+	
+	public Konto getkt(short ktnr){
+		for(int i = 0; i<konten.size();i++){
+			if(ktnr==konten.get(i).getKontonummer()){return konten.get(i);};
+		}
+		return null;
+	}
+	
+	public boolean tryktnr(short ktnr){
+		for(int i = 0; i<konten.size();i++){
+			if(ktnr==konten.get(i).getKontonummer()){return true;};
+		}
+		return false;
+	}
+	
+	public void act(){
+		setChanged();
 	}
 }
 
