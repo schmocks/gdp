@@ -503,5 +503,20 @@ public class Bank extends Observable {
 	public void act(){
 		setChanged();
 	}
+	
+	
+	public void KundenLoeschen(String vorname, String nachname, String adresse){
+		ArrayList<Konto> temp = new ArrayList<Konto>();
+		
+		
+		for(int i=0;i<konten.size();i++){
+			Kunde kt = konten.get(i).getKunde();
+			if(vorname.equals(kt.getVorname())&&nachname.equals(kt.getNachname())&&adresse.equals(kt.getAdresse())){
+				temp.add(konten.get(i));
+			}
+		}
+		konten.removeAll(temp);
+		
+	}
 }
 

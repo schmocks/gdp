@@ -13,7 +13,7 @@ public class App {
 		Bank b = new KundenGenerator().fuelleBank(new Bank());
 		MainView mv = new MainView(b);
 		b.addObserver(mv);
-		b.menuBank();
+		//b.menuBank();
 		
 		
 		

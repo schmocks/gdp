@@ -73,7 +73,7 @@ public class KontoAnzeigenView extends JFrame implements Observer{
 				Vector<String> row = new Vector<String>();
 				row.add(String.valueOf(k[i].getKontonummer()));
 				row.add(ku.getVorname());row.add(ku.getNachname());
-				
+				row.add(ku.getAdresse());row.add(ku.getTelNr());
 				
 				row.add(String.valueOf(k[i].getSaldo()).replace('.', ','));
 				row.add(k[i].getClass().getSimpleName());
@@ -81,7 +81,8 @@ public class KontoAnzeigenView extends JFrame implements Observer{
 				}
 			Vector<String> title = new Vector<String>();
 			title.add("Kontonummer"); title.add("Vorname");
-			title.add("Nachname"); title.add("Saldo");title.add("Typ");
+			title.add("Nachname"); title.add("Adresse");
+			title.add("Telefon"); title.add("Saldo");title.add("Typ");
 			DefaultTableModel dft = new DefaultTableModel(data, title);
 			
 			return dft;

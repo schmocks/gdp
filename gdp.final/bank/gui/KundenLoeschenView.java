@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
 import java.util.Observable;
 import java.util.Observer;
 
@@ -13,42 +14,42 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-
-
-
 import bank.app.Bank;
 import bank.app.Konto;
 
 
 
-public class KundenSuche extends JFrame implements Observer{
+public class KundenLoeschenView extends JFrame implements Observer{
 
-	
-	
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 	Bank model;
-	int aufruf = 0 ;
-	JTextField t;
+	JLabel title,ktdata;
 	JButton ok,exit;
-	JLabel title;
-	//static String[] se = {"Kundensuche"};
+	JTextField vn,nn,ad,tel,sl;
+	Konto konto;
 	
-	public KundenSuche(Bank b, int k ){
-		super("Test");
+	public KundenLoeschenView(Bank b){
+		super("Kunden löschen");
 		model=b;
-		aufruf=k;
+		
 		getContentPane().setLayout(new BorderLayout());
+		JPanel tpanel = new JPanel(new GridLayout(3,1));
 		JPanel panel = new JPanel(new GridLayout(1,2));
 		ok = new JButton("OK");ok.addActionListener(this.new Controller());
 		exit = new JButton("Abbruch");exit.addActionListener(this.new Controller());
-		title = new JLabel("Kontonnummer:");
-		t = new JTextField();
+		title = new JLabel("Kundendaten");
+		
+		vn = new JTextField("Vorname");
+		nn = new JTextField("Nachname");
+		ad  = new JTextField("Adresse");
+		
 		panel.add(ok);panel.add(exit);
+		tpanel.add(vn);tpanel.add(nn);tpanel.add(ad);
 		getContentPane().add(title, BorderLayout.NORTH);
-		getContentPane().add(t, BorderLayout.CENTER);
+		getContentPane().add(tpanel, BorderLayout.CENTER);
 		getContentPane().add(panel, BorderLayout.SOUTH);
 		//JPanel 
 	
@@ -61,16 +62,14 @@ public class KundenSuche extends JFrame implements Observer{
 		setAlwaysOnTop(false);
 		setResizable(false);
 		setVisible(true);
-		//setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
-	
 	
 	@Override
 	public void update(Observable o, Object arg) {
 		// TODO Auto-generated method stub
 		
 	}
-	
 	public class Controller implements ActionListener {
 
 		@Override
@@ -82,19 +81,16 @@ public class KundenSuche extends JFrame implements Observer{
 				
 				}
 			if (e.getSource() == ok) {
-				String ktnrstr = t.getText();
+				String vorname = vn.getText();
+				String nachname = nn.getText();
+				String adresse = ad.getText();
+				
 				try{
-					Short ktsh = Short.parseShort(ktnrstr);
-					if(!model.tryktnr(ktsh)){return;}
-					Konto kt = model.getkt(ktsh);
-					
-					//model.notifyObservers();
+					model.KundenLoeschen(vorname, nachname, adresse);
 					setVisible(false);
-					switch(aufruf){
-					case 0: model.addObserver(new GeldEinzahlenView(model,kt));break;
-					case 1: model.addObserver(new GeldAuszahlenView(model, kt));break;
-					case 2: model.addObserver(new KontoauszugView(model, kt));model.act();model.notifyObservers();break;
-					}
+					model.act();
+					model.notifyObservers();
+					
 					}
 				catch(NumberFormatException ex){
 						return;
@@ -104,20 +100,5 @@ public class KundenSuche extends JFrame implements Observer{
 		}
 		
 	}
-	
-}	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	
 
-	
+}

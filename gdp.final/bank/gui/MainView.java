@@ -126,7 +126,14 @@ public class MainView extends JFrame implements Observer{
 					setVisible(false);
 					model.addObserver(new KundenSuche(model,2));
 				}
-				
+				if(e.getSource() == kua){
+					setVisible(false);
+					model.addObserver(new KundenAnlegenView(model));
+				}
+				if(e.getSource() == kul){
+					setVisible(false);
+					model.addObserver(new KundenLoeschenView(model));
+				}
 				
 			}
 	}

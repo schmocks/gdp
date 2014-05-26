@@ -36,7 +36,7 @@ public class KontoauszugView extends JFrame implements Observer{
 	
 	
 	public KontoauszugView(Bank b, Konto k){
-		super ("Kontoauszug Konto: " +k.getKontonummer());
+		super (k.getClass().getSimpleName() + " " + k.getKontonummer());
 		model=b;
 		konto=k;
 		getContentPane().setLayout(new BorderLayout());
