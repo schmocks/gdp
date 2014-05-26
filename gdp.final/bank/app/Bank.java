@@ -448,7 +448,11 @@ public class Bank extends Observable {
 		end();
 	}
 	
-	
+	/**
+	 * gibt den Betrag des gesamten eingelagert Geldes zurüvck
+	 * 
+	 * @return
+	 */
 	public BigDecimal getGesamtBetrag(){
 		BigDecimal s = new BigDecimal(0);
 		for(int i = 0; i<konten.size();i++){
@@ -456,6 +460,11 @@ public class Bank extends Observable {
 		}
 		return s;
 	}
+	
+	/**
+	 * Gibt Kunden mit negativen Guthaben zurück
+	 * @return
+	 */
 	
 	public int getMieseKunden(){
 		int x = 0; 
@@ -467,7 +476,10 @@ public class Bank extends Observable {
 		return x;
 	}
 	
-	
+	/**
+	 * Gibt sortierte Arraylist zurück
+	 * @return
+	 */
 	public ArrayList<Konto> getKonten(){
 		Konto[] konto = konten.toArray(new Konto[konten.size()]);
 		Konto temp=null;
@@ -485,14 +497,22 @@ public class Bank extends Observable {
 		return k;
 	}
 	
-	
+	/**
+	 * Gibt das Konto mit ktnr zurück
+	 * @param ktnr
+	 * @return
+	 */
 	public Konto getkt(short ktnr){
 		for(int i = 0; i<konten.size();i++){
 			if(ktnr==konten.get(i).getKontonummer()){return konten.get(i);};
 		}
 		return null;
 	}
-	
+	/**
+	 * Checkt ob die Kontonummer vorhanden ist
+	 * @param ktnr
+	 * @return
+	 */
 	public boolean tryktnr(short ktnr){
 		for(int i = 0; i<konten.size();i++){
 			if(ktnr==konten.get(i).getKontonummer()){return true;};
@@ -504,7 +524,12 @@ public class Bank extends Observable {
 		setChanged();
 	}
 	
-	
+	/**
+	 * Löscht das Konto mit folgenden Daten
+	 * @param vorname
+	 * @param nachname
+	 * @param adresse
+	 */
 	public void KundenLoeschen(String vorname, String nachname, String adresse){
 		ArrayList<Konto> temp = new ArrayList<Konto>();
 		

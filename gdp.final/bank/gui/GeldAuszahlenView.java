@@ -21,7 +21,7 @@ import bank.app.Konto;
 public class GeldAuszahlenView extends JFrame implements Observer{
 
 	/**
-	 * 
+	 * Geld einzahlen Fenster
 	 */
 	private static final long serialVersionUID = 1L;
 	Bank model;
@@ -40,7 +40,7 @@ public class GeldAuszahlenView extends JFrame implements Observer{
 		exit = new JButton("Abbruch");exit.addActionListener(this.new Controller());
 		title = new JLabel("Betrag");
 		ktdata = new JLabel("Guthaben: " + k.getSaldo() + " €");
-		t = new JTextField();
+		t = new JTextField();t.addActionListener(this.new Controller());
 		panel.add(ok);panel.add(exit);
 		getContentPane().add(ktdata, BorderLayout.NORTH);
 		getContentPane().add(t, BorderLayout.CENTER);
@@ -64,6 +64,14 @@ public class GeldAuszahlenView extends JFrame implements Observer{
 		// TODO Auto-generated method stub
 		
 	}
+	
+	/**
+	 * Controller
+	 * 
+	 * @author Stephan
+	 *
+	 */
+	
 	public class Controller implements ActionListener {
 
 		@Override
@@ -75,6 +83,24 @@ public class GeldAuszahlenView extends JFrame implements Observer{
 				
 				}
 			if (e.getSource() == ok) {
+				String ktnrstr = t.getText();
+				ktnrstr=ktnrstr.replace(',','.');
+				try{
+					
+				
+					
+					konto.auszahlen(new BigDecimal(ktnrstr));
+					setVisible(false);
+					model.act();
+					model.notifyObservers();
+					
+					}
+				catch(NumberFormatException ex){
+						return;
+					}
+			
+				}
+			if (e.getSource() == t) {
 				String ktnrstr = t.getText();
 				ktnrstr=ktnrstr.replace(',','.');
 				try{

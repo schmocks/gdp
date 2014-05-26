@@ -21,7 +21,7 @@ import bank.app.Konto;
 
 
 
-public class KundenSuche extends JFrame implements Observer{
+public class KundenSucheView extends JFrame implements Observer{
 
 	
 	
@@ -36,7 +36,7 @@ public class KundenSuche extends JFrame implements Observer{
 	JLabel title;
 	//static String[] se = {"Kundensuche"};
 	
-	public KundenSuche(Bank b, int k ){
+	public KundenSucheView(Bank b, int k ){
 		super("Test");
 		model=b;
 		aufruf=k;
@@ -45,7 +45,7 @@ public class KundenSuche extends JFrame implements Observer{
 		ok = new JButton("OK");ok.addActionListener(this.new Controller());
 		exit = new JButton("Abbruch");exit.addActionListener(this.new Controller());
 		title = new JLabel("Kontonnummer:");
-		t = new JTextField();
+		t = new JTextField();t.addActionListener(this.new Controller());
 		panel.add(ok);panel.add(exit);
 		getContentPane().add(title, BorderLayout.NORTH);
 		getContentPane().add(t, BorderLayout.CENTER);
@@ -82,6 +82,26 @@ public class KundenSuche extends JFrame implements Observer{
 				
 				}
 			if (e.getSource() == ok) {
+				String ktnrstr = t.getText();
+				try{
+					Short ktsh = Short.parseShort(ktnrstr);
+					if(!model.tryktnr(ktsh)){return;}
+					Konto kt = model.getkt(ktsh);
+					
+					//model.notifyObservers();
+					setVisible(false);
+					switch(aufruf){
+					case 0: model.addObserver(new GeldEinzahlenView(model,kt));break;
+					case 1: model.addObserver(new GeldAuszahlenView(model, kt));break;
+					case 2: model.addObserver(new KontoauszugView(model, kt));model.act();model.notifyObservers();break;
+					}
+					}
+				catch(NumberFormatException ex){
+						return;
+					}
+			
+				}
+			if (e.getSource() == t) {
 				String ktnrstr = t.getText();
 				try{
 					Short ktsh = Short.parseShort(ktnrstr);

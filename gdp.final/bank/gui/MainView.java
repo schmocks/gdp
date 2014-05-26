@@ -21,7 +21,7 @@ import javax.swing.JTextField;
 public class MainView extends JFrame implements Observer{
 
 	/**
-	 * 
+	 * Mainview / Hauptmenu der Bank GUI
 	 */
 	private static final long serialVersionUID = 100;
 	Bank model;
@@ -53,18 +53,7 @@ public class MainView extends JFrame implements Observer{
 		gsaldo = new JLabel(" " + Betrag + " € eingelagert");
 		mkunden = new JLabel(" " + miese + " Kunden mit negativem Saldo");
 		System.out.println(Betrag);
-		/*t = new JTextField(ti);
-		m = new JTextField(mi);
-		j = new JTextField(ji);
-		ok = new JButton("OK");
-		input.add(new JLabel("     Tag"));
-		input.add(new JLabel("  Monat"));
-		input.add(new JLabel("   Jahr"));
-		input.add(t);input.add(m);input.add(j);
-		//tutton.add(text, BorderLayout.SOUTH);tutton.add(button, BorderLayout.SOUTH);
-		getContentPane().add(input, BorderLayout.NORTH);
-		getContentPane().add(ok, BorderLayout.SOUTH); ok.addActionListener(this.new Controller());
-		*/
+		
 		panel.add(status);panel.add(gkunden);panel.add(gsaldo);panel.add(mkunden);
 		
 		tf1 = new JTextField(b.getKonten().size());
@@ -72,7 +61,7 @@ public class MainView extends JFrame implements Observer{
 		getContentPane().add(bpanel, BorderLayout.WEST);
 		getContentPane().add(panel, BorderLayout.CENTER);
 		
-		//JPanel 
+		
 		
 		
 		
@@ -116,15 +105,15 @@ public class MainView extends JFrame implements Observer{
 				
 				if(e.getSource() == ge){
 					setVisible(false);
-					model.addObserver(new KundenSuche(model,0));
+					model.addObserver(new KundenSucheView(model,0));
 				}
 				if(e.getSource() == ga){
 					setVisible(false);
-					model.addObserver(new KundenSuche(model,1));
+					model.addObserver(new KundenSucheView(model,1));
 				}
 				if(e.getSource() == kaus){
 					setVisible(false);
-					model.addObserver(new KundenSuche(model,2));
+					model.addObserver(new KundenSucheView(model,2));
 				}
 				if(e.getSource() == kua){
 					setVisible(false);
